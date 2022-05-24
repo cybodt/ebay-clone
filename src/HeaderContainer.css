@@ -1,0 +1,77 @@
+.headerContainer {
+  width: 1312px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.headerLineOne {
+  width: 1248px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0 4px;
+  padding: 2px 0 0 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Sans-serif;
+}
+
+.headerLineOne__left {
+  display: flex;
+  align-items: center;
+
+}
+
+.headerLineOne__left>div {
+  margin-right: 30px;
+  color: #000;
+}
+
+.headerLineOne__right {
+  display: flex;
+  align-items: center;
+}
+
+.headerLineOne__right>div {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.watchlist,
+.my_ebay,
+.shipTo,
+.sell {
+  display: flex;
+  align-items: center;
+}
+
+.signIn,
+.register {
+  color: #0654ba;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.globalDeals,
+.helpAndContact {
+  cursor: pointer;
+}
+
+.globalDeals:hover,
+.helpAndContact:hover,
+.sell:hover {
+  text-decoration: underline;
+}
+
+.shipTo:hover {
+  color: #0654ba;
+}
+
+.shoppingCart:hover {
+  color: #0654ba;
+}
+
+.headerBottomLine {
+  min-width: 1312px;
+  border-bottom: 1px solid #ccc;
+}

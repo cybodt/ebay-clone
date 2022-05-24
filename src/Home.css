@@ -1,0 +1,34 @@
+.home__navBarConatiner {
+  width: 1312px;
+  margin: 0 auto;
+}
+
+.home__navBarContainer-topLine,
+.home__navBarContainer-bottomLine {
+  border-bottom: 1px solid #ccc;
+}
+
+.home__navBarContainer-navBar {
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__navBarContainer-navBar>div {
+  margin-bottom: -1px;
+  padding: 9px 12px;
+  font-family: 'Market Sans', Arial, sans-serif;
+  color: #555;
+}
+
+.home__navBarContainer-navBar>div>span:hover {
+  cursor: pointer;
+}
+
+.home__navBarConatiner-home>span {
+  padding-bottom: 4px !important;
+  border-bottom: solid 2px #555;
+  color: #333 !important;
+  font-weight: bold;
+}
