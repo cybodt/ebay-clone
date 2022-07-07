@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+// import HomeCarousel from './HomeCarousel';
 
 function Home() {
   return (
@@ -23,10 +24,11 @@ function Home() {
         <div className='home__navBarContainer-bottomLine'></div>
       </div>
       <div className='home__carouselContainer'>
-        <div className='home__carouselContainer-carousel'>
+        {/* <HomeCarousel /> */}
+        {/* <div className='home__carouselContainer-carousel'>
           <div className='home__carouselContainer-carousel-leftSide'></div>
           <div className='home__carouselContainer-carousel-rightSide'></div>
-        </div>
+        </div> */}
       </div>
       <div className='home__popularBrands'></div>
       <div className='home__popularCategories'></div>
