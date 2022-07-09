@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css';
-// import HomeCarousel from './HomeCarousel';
+import HomeCarousel from './HomeCarousel';
 
 function Home() {
   return (
     <div className='home'>
-      <div className='home__navBarConatiner'>
+      <div className='home__navBarContainer'>
         <div className='home__navBarContainer-topLine'></div>
         <div className='home__navBarContainer-navBar'>
           <div className='home__navBarConatiner-home'><span>Home</span></div>
@@ -24,11 +24,7 @@ function Home() {
         <div className='home__navBarContainer-bottomLine'></div>
       </div>
       <div className='home__carouselContainer'>
-        {/* <HomeCarousel /> */}
-        {/* <div className='home__carouselContainer-carousel'>
-          <div className='home__carouselContainer-carousel-leftSide'></div>
-          <div className='home__carouselContainer-carousel-rightSide'></div>
-        </div> */}
+        <HomeCarousel />
       </div>
       <div className='home__popularBrands'></div>
       <div className='home__popularCategories'></div>
