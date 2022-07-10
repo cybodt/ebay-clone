@@ -40,4 +40,38 @@
 
 .home__carouselContainer {
   width: 1312px;
+  margin-bottom: 16px;
+}
+
+.home__popularBrands {
+  width: 1248px;
+  height: 253px;
+  margin: 32px auto 64px;
+  background-color: pink;
+}
+
+.home__popularBrands {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__popularBrands-headings {
+  display: flex;
+  flex-direction: row;
+}
+
+.home__popularBrands-explore {
+  padding-right: 20px;
+}
+
+.home__popularBrands-seeAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 28px;
+  line-height: 28px;
+  border-left: solid 2px #f7f7f7;
+  padding-left: 17px;
+  font-size: 1.3em;
+  font-family: "Market Sans", Arial, sans-serif;
 }

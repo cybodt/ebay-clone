@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import HomeCarousel from './HomeCarousel';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Home() {
   return (
@@ -26,7 +27,21 @@ function Home() {
       <div className='home__carouselContainer'>
         <HomeCarousel />
       </div>
-      <div className='home__popularBrands'></div>
+      <div className='home__popularBrands'>
+        <div className='home__popularBrands-headings'>
+          <div className='home__popularBrands-explore'>
+            <h2>Explore popular brands</h2>
+          </div>
+          <div className='home__popularBrands-seeAll'>
+            <div>See all&nbsp;</div>
+            <ArrowForwardIcon fontSize='large' />
+          </div>
+          <div className='home__popularBrands-brands'>
+
+          </div>
+        </div>
+
+      </div>
       <div className='home__popularCategories'></div>
       <div className='home__dailyDeals'></div>
       <div className='home__computerWebcams'></div>
