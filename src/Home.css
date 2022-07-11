@@ -43,7 +43,8 @@
   margin-bottom: 16px;
 }
 
-.home__popularBrands {
+.home__popularBrands,
+.home__popularCategories {
   width: 1248px;
   height: 253px;
   display: flex;
@@ -51,16 +52,19 @@
   margin: 32px auto 64px;
 }
 
-.home__popularBrands-headings {
+.home__popularBrands-headings,
+.home__popularCategories-headings {
   display: flex;
   flex-direction: row;
 }
 
-.home__popularBrands-explore {
+.home__popularBrands-explore,
+.home__popularCategories-explore {
   padding-right: 20px;
 }
 
-.home__popularBrands-seeAll {
+.home__popularBrands-seeAll,
+.home__popularCategories-seeAll {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -72,11 +76,13 @@
   font-family: "Market Sans", Arial, sans-serif;
 }
 
-.home__popularBrands-brands {
+.home__popularBrands-brands,
+.home__popularCategories-categories {
   display: flex;
 }
 
-.home__popularBrands-brands>div {
+.home__popularBrands-brands>div,
+.home__popularCategories-categories>div {
   width: 152px;
   height: 184px;
   display: flex;
@@ -96,7 +102,8 @@
   object-fit: contain;
 }
 
-.brandsName {
+.brandsName,
+.categoriesName {
   margin: 10px 0 0;
   font-family: 'Market Sans', Arial, sans-serif;
 }

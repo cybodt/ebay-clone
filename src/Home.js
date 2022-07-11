@@ -59,7 +59,7 @@ function Home() {
             <div className='brandsName'><h3>Samsung</h3></div>
           </div>
           <div className='sony'>
-          <div className='containerBrandsOrCategories'>
+            <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
                 src='/images/Explore_popular_brands/Sony.jpg'
@@ -69,7 +69,7 @@ function Home() {
             <div className='brandsName'><h3>Sony</h3></div>
           </div>
           <div className='ugreen'>
-          <div className='containerBrandsOrCategories'>
+            <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
                 src='/images/Explore_popular_brands/Ugreen.jpg'
@@ -79,7 +79,7 @@ function Home() {
             <div className='brandsName'><h3>Ugreen</h3></div>
           </div>
           <div className='xiaomi'>
-          <div className='containerBrandsOrCategories'>
+            <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
                 src='/images/Explore_popular_brands/Xiaomi.jpg'
@@ -89,7 +89,7 @@ function Home() {
             <div className='brandsName'><h3>Xiaomi</h3></div>
           </div>
           <div className='nike'>
-          <div className='containerBrandsOrCategories'>
+            <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
                 src='/images/Explore_popular_brands/Nike.jpg'
@@ -99,7 +99,7 @@ function Home() {
             <div className='brandsName'><h3>Nike</h3></div>
           </div>
           <div className='bornPretty'>
-          <div className='containerBrandsOrCategories'>
+            <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
                 src='/images/Explore_popular_brands/Born_Pretty.jpg'
@@ -110,7 +110,89 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='home__popularCategories'></div>
+      <div className='home__popularCategories'>
+        <div className='home__popularCategories-headings'>
+          <div className='home__popularCategories-explore'>
+            <h2>Explore Popular Categories</h2>
+          </div>
+          <div className='home__popularCategories-seeAll'>
+            <div>See all&nbsp;</div>
+            <ArrowForwardIcon fontSize='large' />
+          </div>
+        </div>
+        <div className='home__popularCategories-categories'>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+          <div className='koreanBeauty'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Korean_beauty.jpg'
+                alt='Korean beauty'
+              />
+            </div>
+            <div className='categoriesName'><h3>Korean beauty</h3></div>
+          </div>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+          <div className='sneakers'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_Popular_Categories/Sneakers.jpg'
+                alt='Sneakers'
+              />
+            </div>
+            <div className='categoriesName'><h3>Sneakers</h3></div>
+          </div>
+        </div>
+      </div>
       <div className='home__dailyDeals'></div>
       <div className='home__computerWebcams'></div>
     </div>
