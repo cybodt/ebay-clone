@@ -36,11 +36,79 @@ function Home() {
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
-          <div className='home__popularBrands-brands'>
-
+        </div>
+        <div className='home__popularBrands-brands'>
+          <div className='apple'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Apple.jpg'
+                alt='Apple'
+              />
+            </div>
+            <div className='brandsName'><h3>Apple</h3></div>
+          </div>
+          <div className='samsung'>
+            <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Samsung.jpg'
+                alt='Samsung'
+              />
+            </div>
+            <div className='brandsName'><h3>Samsung</h3></div>
+          </div>
+          <div className='sony'>
+          <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Sony.jpg'
+                alt='Sony'
+              />
+            </div>
+            <div className='brandsName'><h3>Sony</h3></div>
+          </div>
+          <div className='ugreen'>
+          <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Ugreen.jpg'
+                alt='Ugreen'
+              />
+            </div>
+            <div className='brandsName'><h3>Ugreen</h3></div>
+          </div>
+          <div className='xiaomi'>
+          <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Xiaomi.jpg'
+                alt='Xiaomi'
+              />
+            </div>
+            <div className='brandsName'><h3>Xiaomi</h3></div>
+          </div>
+          <div className='nike'>
+          <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Nike.jpg'
+                alt='Nike'
+              />
+            </div>
+            <div className='brandsName'><h3>Nike</h3></div>
+          </div>
+          <div className='bornPretty'>
+          <div className='containerBrandsOrCategories'>
+              <img
+                className='imageBrandsOrCategories'
+                src='/images/Explore_popular_brands/Born_Pretty.jpg'
+                alt='Born Pretty'
+              />
+            </div>
+            <div className='brandsName'><h3>Born Pretty</h3></div>
           </div>
         </div>
-
       </div>
       <div className='home__popularCategories'></div>
       <div className='home__dailyDeals'></div>

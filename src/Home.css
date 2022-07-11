@@ -46,13 +46,9 @@
 .home__popularBrands {
   width: 1248px;
   height: 253px;
-  margin: 32px auto 64px;
-  background-color: pink;
-}
-
-.home__popularBrands {
   display: flex;
   flex-direction: column;
+  margin: 32px auto 64px;
 }
 
 .home__popularBrands-headings {
@@ -74,4 +70,33 @@
   padding-left: 17px;
   font-size: 1.3em;
   font-family: "Market Sans", Arial, sans-serif;
+}
+
+.home__popularBrands-brands {
+  display: flex;
+}
+
+.home__popularBrands-brands>div {
+  width: 152px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 14px 0;
+}
+
+.containerBrandsOrCategories {
+  width: 152px;
+  height: 152px;
+}
+
+.imageBrandsOrCategories {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.brandsName {
+  margin: 10px 0 0;
+  font-family: 'Market Sans', Arial, sans-serif;
 }
