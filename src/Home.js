@@ -141,55 +141,55 @@ function Home() {
             </div>
             <div className='categoriesName'><h3>Korean beauty</h3></div>
           </div>
-          <div className='sneakers'>
+          <div className='Wristwatches'>
             <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
+                src='/images/Explore_Popular_Categories/Wristwatches.jpg'
+                alt='Wristwatches'
               />
             </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
+            <div className='categoriesName'><h3>Wristwatches</h3></div>
           </div>
-          <div className='sneakers'>
+          <div className='Fishing'>
             <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
+                src='/images/Explore_Popular_Categories/Fishing.jpg'
+                alt='Fishing'
               />
             </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
+            <div className='categoriesName'><h3>Fishing</h3></div>
           </div>
-          <div className='sneakers'>
+          <div className='Collectibles'>
             <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
+                src='/images/Explore_Popular_Categories/Collectibles.jpg'
+                alt='Collectibles'
               />
             </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
+            <div className='categoriesName'><h3>Collectibles</h3></div>
           </div>
-          <div className='sneakers'>
+          <div className='Smartphones'>
             <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
+                src='/images/Explore_Popular_Categories/Smartphones.jpg'
+                alt='Smartphones'
               />
             </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
+            <div className='categoriesName'><h3>Smartphones</h3></div>
           </div>
-          <div className='sneakers'>
+          <div className='Sell'>
             <div className='containerBrandsOrCategories'>
               <img
                 className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
+                src='/images/Explore_Popular_Categories/Sell.jpg'
+                alt='Sell'
               />
             </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
+            <div className='categoriesName'><h3>Sell</h3></div>
           </div>
         </div>
       </div>
