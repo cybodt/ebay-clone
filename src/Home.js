@@ -193,7 +193,31 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='home__dailyDeals'></div>
+      <div className='home__dailyDeals'>
+        <div className='home__dailyDeals-headings'>
+          <div className='home__dailyDeals-explore'>
+            <h2>Daily Deals</h2>
+          </div>
+          <div className='home__dailyDeals-seeAll'>
+            <div>See all&nbsp;</div>
+            <ArrowForwardIcon fontSize='large' />
+          </div>
+        </div>
+        <div className='home__dailyDeals-deals'>
+          <div className='logitech-HD-Webcam-C270'>
+            <div className='containerDailyDeals'>
+              <img
+                className='imageDailyDeals'
+                src='/images/Daily_Deals/Logitech_HD_Webcam_C270.jpg'
+                alt='Logitech HD Webcam C270'
+              />
+            </div>
+            <div className='containerDailyDeals-price'>
+              <span>$27.97</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='home__computerWebcams'></div>
     </div>
   )

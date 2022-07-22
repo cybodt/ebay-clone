@@ -44,7 +44,8 @@
 }
 
 .home__popularBrands,
-.home__popularCategories {
+.home__popularCategories,
+.home__dailyDeals {
   width: 1248px;
   height: 253px;
   display: flex;
@@ -53,18 +54,21 @@
 }
 
 .home__popularBrands-headings,
-.home__popularCategories-headings {
+.home__popularCategories-headings,
+.home__dailyDeals-headings {
   display: flex;
   flex-direction: row;
 }
 
 .home__popularBrands-explore,
-.home__popularCategories-explore {
+.home__popularCategories-explore,
+.home__dailyDeals-explore {
   padding-right: 20px;
 }
 
 .home__popularBrands-seeAll,
-.home__popularCategories-seeAll {
+.home__popularCategories-seeAll,
+.home__dailyDeals-seeAll {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -96,9 +100,10 @@
   height: 152px;
 }
 
-.imageBrandsOrCategories {
-  width: 100%;
-  height: 100%;
+.imageBrandsOrCategories,
+.imageDailyDeals {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -106,4 +111,16 @@
 .categoriesName {
   margin: 10px 0 0;
   font-family: 'Market Sans', Arial, sans-serif;
+}
+
+.containerDailyDeals {
+  width: 209px;
+  height: 209px;
+  margin-top: 16px;
+}
+
+.containerDailyDeals-price {
+  width: 209px;
+  height: 19px;
+  margin-top: 16px;
 }
