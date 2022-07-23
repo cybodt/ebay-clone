@@ -208,7 +208,7 @@ function Home() {
             <div className='containerDailyDeals'>
               <img
                 className='imageDailyDeals'
-                src='/images/Daily_Deals/Logitech_HD_Webcam_C270.jpg'
+                src='/images/Daily_Deals/small_icons/Logitech_HD_Webcam_C270_small.png'
                 alt='Logitech HD Webcam C270'
               />
             </div>

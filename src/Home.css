@@ -116,11 +116,17 @@
 .containerDailyDeals {
   width: 209px;
   height: 209px;
-  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 16px 0 0;
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .containerDailyDeals-price {
   width: 209px;
   height: 19px;
   margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
