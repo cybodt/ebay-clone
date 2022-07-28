@@ -81,7 +81,8 @@
 }
 
 .home__popularBrands-brands,
-.home__popularCategories-categories {
+.home__popularCategories-categories,
+.home__dailyDeals-deals {
   display: flex;
 }
 
@@ -93,6 +94,10 @@
   flex-direction: column;
   align-items: center;
   margin: 30px 14px 0;
+}
+
+.home__dailyDeals-deals>div {
+  margin-right: 16px;
 }
 
 .containerBrandsOrCategories {
