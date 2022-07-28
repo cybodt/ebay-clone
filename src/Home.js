@@ -204,7 +204,7 @@ function Home() {
           </div>
         </div>
         <div className='home__dailyDeals-deals'>
-          <div className='logitech-HD-Webcam-C270'>
+          {/* <div className='logitech-HD-Webcam-C270'>
             <div className='containerDailyDeals'>
               <img
                 className='imageDailyDeals'
@@ -215,7 +215,10 @@ function Home() {
             <div className='containerDailyDeals-price'>
               <span>$27.97</span>
             </div>
-          </div>
+          </div> */}
+          <>
+
+          </>
         </div>
       </div>
       <div className='home__computerWebcams'></div>
