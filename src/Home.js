@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import HomeCarousel from './HomeCarousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import productsDailyDeals from './ArrayDailyDeals';
+import DailyDeals from './DailyDeals';
 
 function Home() {
   return (
@@ -204,21 +206,15 @@ function Home() {
           </div>
         </div>
         <div className='home__dailyDeals-deals'>
-          {/* <div className='logitech-HD-Webcam-C270'>
-            <div className='containerDailyDeals'>
-              <img
-                className='imageDailyDeals'
-                src='/images/Daily_Deals/small_icons/Logitech_HD_Webcam_C270_small.png'
-                alt='Logitech HD Webcam C270'
-              />
-            </div>
-            <div className='containerDailyDeals-price'>
-              <span>$27.97</span>
-            </div>
-          </div> */}
-          <>
-
-          </>
+          {productsDailyDeals.map((el, i) => (
+            <DailyDeals
+              key={i}
+              productName={el.productName}
+              srcImg={el.srcImg}
+              altImg={el.altImg}
+              price={el.price}
+            />)
+          )}
         </div>
       </div>
       <div className='home__computerWebcams'></div>

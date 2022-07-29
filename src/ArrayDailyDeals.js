@@ -1,4 +1,4 @@
-export const productsDailyDeals = [
+const productsDailyDeals = [
   {
     productName: 'logitech-HD-Webcam-C270',
     srcImg: '/images/Daily_Deals/small_icons/Logitech_HD_Webcam_C270_small.png',
@@ -90,3 +90,5 @@ export const productsDailyDeals = [
     price: '$53.96'
   }
 ]
+
+export default productsDailyDeals;
