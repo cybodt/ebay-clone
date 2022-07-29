@@ -53,6 +53,11 @@
   margin: 32px auto 64px;
 }
 
+.home__dailyDeals {
+  height: 340px;
+  margin: 32px auto;
+}
+
 .home__popularBrands-headings,
 .home__popularCategories-headings,
 .home__dailyDeals-headings {
@@ -84,6 +89,15 @@
 .home__popularCategories-categories,
 .home__dailyDeals-deals {
   display: flex;
+}
+
+.home__dailyDeals-deals {
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.home__dailyDeals-deals:hover {
+  overflow-x: scroll;
 }
 
 .home__popularBrands-brands>div,
