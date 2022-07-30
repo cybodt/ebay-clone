@@ -54,7 +54,7 @@
 }
 
 .home__dailyDeals {
-  height: 340px;
+  height: 330px;
   margin: 32px auto;
 }
 
@@ -146,6 +146,7 @@
   width: 209px;
   height: 19px;
   margin-top: 16px;
+  padding-bottom: 10px;
   font-size: 1.1rem;
   font-weight: 700;
 }
