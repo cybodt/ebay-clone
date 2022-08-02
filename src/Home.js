@@ -226,7 +226,7 @@ function Home() {
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
-          <div className='recommended'>Recommended for you</div>
+          <div className='recommendedProducts'>Recommended for you</div>
         </div>
       </div>
     </div>
