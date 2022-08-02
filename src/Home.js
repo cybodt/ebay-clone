@@ -217,7 +217,18 @@ function Home() {
           )}
         </div>
       </div>
-      <div className='home__computerWebcams'></div>
+      <div className='home__computerWebcams'>
+        <div className='home__computerWebcams-headings'>
+          <div className='home__computerWebcams-explore'>
+            <h2>Computer Webcams</h2>
+          </div>
+          <div className='home__computerWebcams-seeAll'>
+            <div>See all&nbsp;</div>
+            <ArrowForwardIcon fontSize='large' />
+          </div>
+          <div className='recommended'>Recommended for you</div>
+        </div>
+      </div>
     </div>
   )
 }
