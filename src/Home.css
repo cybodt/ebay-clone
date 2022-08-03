@@ -56,7 +56,10 @@
 
 .home__dailyDeals {
   height: 330px;
-  margin: 32px auto;
+}
+
+.home__computerWebcams {
+  height: 350px;
 }
 
 .home__popularBrands-headings,
