@@ -4,6 +4,8 @@ import HomeCarousel from './HomeCarousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import productsDailyDeals from './ArrayDailyDeals';
 import DailyDeals from './DailyDeals';
+import productsComputerWebcams from './ArrayComputerWebcams';
+import ComputerWebcams from './ComputerWebcams';
 
 function Home() {
   return (
@@ -213,8 +215,8 @@ function Home() {
               srcImg={el.srcImg}
               altImg={el.altImg}
               price={el.price}
-            />)
-          )}
+            />
+          ))}
         </div>
       </div>
       <div className='home__computerWebcams'>
@@ -227,6 +229,18 @@ function Home() {
             <ArrowForwardIcon fontSize='large' />
           </div>
           <div className='recommendedProducts'>Recommended for you</div>
+        </div>
+        <div className='home__computerWebcams-webcams'>
+          {productsComputerWebcams.map((el, i) => (
+            <ComputerWebcams
+              key={i}
+              productName={el.productName}
+              srcImg={el.srcImg}
+              altImg={el.altImg}
+              price={el.price}
+              discount={el.discount}
+            />
+          ))}
         </div>
       </div>
     </div>
