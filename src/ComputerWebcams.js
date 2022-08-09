@@ -17,7 +17,7 @@ function ComputerWebcams(props) {
           {discount ? `$${Math.round(price - (price * discount / 100)).toFixed(2)}` : price}
         </span>
         <span className='computerWebcams-discount'>
-          {discount ? `$${price} - ${discount}% off` : ''}
+          <span>{discount ? `$${price}` : ''}</span>{discount ? ` - ${discount}% off` : ''}
         </span>
       </div>
     </div>
