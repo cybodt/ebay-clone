@@ -181,8 +181,16 @@
 
 .computerWebcams-discount {
   display: block;
+  font-size: .875rem;
+  color: #707070;
 }
 
-.computerWebcams-discount>span {
+.computerWebcams-discount>span:first-child {
   text-decoration: line-through;
+}
+
+.computerWebcams-discount>span:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+  content: "\00B7";
 }
