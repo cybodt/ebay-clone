@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import GlobalFooterContainer from './GlobalFooterContainer';
 import HeaderContainer from './HeaderContainer';
 import Home from './Home';
 import SearchContainer from './SearchContainer';
@@ -11,7 +12,8 @@ function App() {
           <Route path='/' element={[
             <HeaderContainer />,
             <SearchContainer />,
-            <Home />
+            <Home />,
+            <GlobalFooterContainer />
           ]} />
         </Routes>
       </div>
