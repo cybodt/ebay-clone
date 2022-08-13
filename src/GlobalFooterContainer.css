@@ -4,3 +4,27 @@
   box-sizing: border-box;
   border-top: 1px solid #ccc;
 }
+
+.globalFooterContainer__footer {
+  width: 1268px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0px;
+  padding: 20px 10px 40px;
+  background-color: lightgreen;
+}
+
+.globalFooterContainer__footer-menus {
+  display: flex;
+}
+
+.globalFooterContainer__footer-menus>div {
+  width: 240px;
+  height: 310px;
+  background-color: lightpink;
+}
+
+.globalFooterContainer__footer-menus h3 {
+  margin: 16px 0;
+}
