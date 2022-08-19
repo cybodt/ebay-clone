@@ -1,30 +1,57 @@
 .globalFooterContainer {
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
   border-top: 1px solid #ccc;
 }
 
 .globalFooterContainer__footer {
-  width: 1268px;
-  height: 426px;
+  width: 1248px;
+  height: 366px;
+  line-height: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 10px auto 0px;
   padding: 20px 10px 40px;
-  background-color: lightgreen;
+  font-family: 'Helvetica neue', Helvetica, Arial, Sans-serif;
+  color: #767676;
 }
 
 .globalFooterContainer__footer-menus {
   display: flex;
+  justify-content: space-between;
 }
 
 .globalFooterContainer__footer-menus>div {
   width: 240px;
   height: 310px;
-  background-color: lightpink;
+  margin-top: 16px;
+}
+
+.globalFooterContainer__footer-menus>div>div {
+  margin-bottom: 32px;
 }
 
 .globalFooterContainer__footer-menus h3 {
   margin: 16px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.listMenu {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.eBaySitesMenu-expanded {
+  display: flex;
+}
+
+.globalFooterContainer__footer-copyright {
+  display: flex;
+  font-size: 11px;
+  color: #41413f;
+}
+
+.globalFooterContainer__footer-copyright>div {
+  color: #707070;
 }
