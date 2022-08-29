@@ -6,6 +6,8 @@ import productsDailyDeals from './ArrayDailyDeals';
 import DailyDeals from './DailyDeals';
 import productsComputerWebcams from './ArrayComputerWebcams';
 import ComputerWebcams from './ComputerWebcams';
+import ExplorePopularBrands from './ExplorePopularBrands';
+import productsExplorePopularBrands from './ArrayExplorePopularBrands';
 
 function Home() {
   return (
@@ -13,18 +15,18 @@ function Home() {
       <div className='home__navBarContainer'>
         <div className='home__navBarContainer-topLine'></div>
         <div className='home__navBarContainer-navBar'>
-          <div className='home__navBarConatiner-home'><span>Home</span></div>
-          <div className='home__navBarConatiner-saved'><span>Saved</span></div>
-          <div className='home__navBarConatiner-electronics'><span>Electronics</span></div>
-          <div className='home__navBarConatiner-fashion'><span>Fashion</span></div>
-          <div className='home__navBarConatiner-health&Beauty'><span>Health & Beauty</span></div>
-          <div className='home__navBarConatiner-home&Garden'><span>Home & Garden</span></div>
-          <div className='home__navBarConatiner-sports'><span>Sports</span></div>
-          <div className='home__navBarConatiner-collectiblesAndArt'><span>Collectibles and Art</span></div>
-          <div className='home__navBarConatiner-industrialEquipment'><span>Industrial equipment</span></div>
-          <div className='home__navBarConatiner-motors'><span>Motors</span></div>
-          <div className='home__navBarConatiner-deals'><span>Deals</span></div>
-          <div className='home__navBarConatiner-sell'><span>Sell</span></div>
+          <div className='home__navBarContainer-home'><span>Home</span></div>
+          <div className='home__navBarContainer-saved'><span>Saved</span></div>
+          <div className='home__navBarContainer-electronics'><span>Electronics</span></div>
+          <div className='home__navBarContainer-fashion'><span>Fashion</span></div>
+          <div className='home__navBarContainer-health&Beauty'><span>Health & Beauty</span></div>
+          <div className='home__navBarContainer-home&Garden'><span>Home & Garden</span></div>
+          <div className='home__navBarContainer-sports'><span>Sports</span></div>
+          <div className='home__navBarContainer-collectiblesAndArt'><span>Collectibles and Art</span></div>
+          <div className='home__navBarContainer-industrialEquipment'><span>Industrial equipment</span></div>
+          <div className='home__navBarContainer-motors'><span>Motors</span></div>
+          <div className='home__navBarContainer-deals'><span>Deals</span></div>
+          <div className='home__navBarContainer-sell'><span>Sell</span></div>
         </div>
         <div className='home__navBarContainer-bottomLine'></div>
       </div>
@@ -42,76 +44,14 @@ function Home() {
           </div>
         </div>
         <div className='home__popularBrands-brands'>
-          <div className='apple'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Apple.jpg'
-                alt='Apple'
-              />
-            </div>
-            <div className='brandsName'><h3>Apple</h3></div>
-          </div>
-          <div className='samsung'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Samsung.jpg'
-                alt='Samsung'
-              />
-            </div>
-            <div className='brandsName'><h3>Samsung</h3></div>
-          </div>
-          <div className='sony'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Sony.jpg'
-                alt='Sony'
-              />
-            </div>
-            <div className='brandsName'><h3>Sony</h3></div>
-          </div>
-          <div className='ugreen'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Ugreen.jpg'
-                alt='Ugreen'
-              />
-            </div>
-            <div className='brandsName'><h3>Ugreen</h3></div>
-          </div>
-          <div className='xiaomi'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Xiaomi.jpg'
-                alt='Xiaomi'
-              />
-            </div>
-            <div className='brandsName'><h3>Xiaomi</h3></div>
-          </div>
-          <div className='nike'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Nike.jpg'
-                alt='Nike'
-              />
-            </div>
-            <div className='brandsName'><h3>Nike</h3></div>
-          </div>
-          <div className='bornPretty'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_popular_brands/Born_Pretty.jpg'
-                alt='Born Pretty'
-              />
-            </div>
-            <div className='brandsName'><h3>Born Pretty</h3></div>
-          </div>
+          {productsExplorePopularBrands.map((el, i) => (
+            <ExplorePopularBrands 
+              key={i}
+              brandName={el.brandName}
+              srcImg={el.srcImg}
+              altImg={el.altImg}
+            />
+          ))}
         </div>
       </div>
       <div className='home__popularCategories'>
