@@ -47,6 +47,7 @@ function Home() {
           {productsExplorePopularBrands.map((el, i) => (
             <ExplorePopularBrands 
               key={i}
+              className={el.className}
               brandName={el.brandName}
               srcImg={el.srcImg}
               altImg={el.altImg}
