@@ -2,9 +2,9 @@ import React from 'react';
 import './Home.css';
 
 function ExplorePopularBrands(props) {
-  const { key, className, brandName, srcImg, altImg } = props;
+  const { myKey, className, brandName, srcImg, altImg } = props;
   return (
-    <div className={className} key={key}>
+    <div className={className} key={myKey}>
       <div className='containerBrandsOrCategories'>
         <img
           className='imageBrandsOrCategories'

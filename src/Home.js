@@ -49,7 +49,7 @@ function Home() {
         <div className='home__popularBrands-brands'>
           {productsExplorePopularBrands.map((el, i) => (
             <ExplorePopularBrands
-              key={i}
+              myKey={i}
               className={el.className}
               brandName={el.brandName}
               srcImg={el.srcImg}
@@ -71,7 +71,7 @@ function Home() {
         <div className='home__popularCategories-categories'>
           {productsExplorePopularCategories.map((el, i) => (
             <ExplorePopularCategories
-              key={i}
+              myKey={i}
               className={el.className}
               categoryName={el.categoryName}
               srcImg={el.srcImg}
@@ -93,7 +93,7 @@ function Home() {
         <div className='home__dailyDeals-deals'>
           {productsDailyDeals.map((el, i) => (
             <DailyDeals
-              key={i}
+              myKey={i}
               productName={el.productName}
               srcImg={el.srcImg}
               altImg={el.altImg}
@@ -116,7 +116,7 @@ function Home() {
         <div className='home__computerWebcams-webcams'>
           {productsComputerWebcams.map((el, i) => (
             <ComputerWebcams
-              key={i}
+              myKey={i}
               productName={el.productName}
               srcImg={el.srcImg}
               altImg={el.altImg}
