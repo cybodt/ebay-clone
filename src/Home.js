@@ -8,6 +8,9 @@ import productsComputerWebcams from './ArrayComputerWebcams';
 import ComputerWebcams from './ComputerWebcams';
 import ExplorePopularBrands from './ExplorePopularBrands';
 import productsExplorePopularBrands from './ArrayExplorePopularBrands';
+import productsExplorePopularCategories from './ArrayExplorePopularCategories';
+import ExplorePopularCategories from './ExplorePopularCategories';
+
 
 function Home() {
   return (
@@ -45,7 +48,7 @@ function Home() {
         </div>
         <div className='home__popularBrands-brands'>
           {productsExplorePopularBrands.map((el, i) => (
-            <ExplorePopularBrands 
+            <ExplorePopularBrands
               key={i}
               className={el.className}
               brandName={el.brandName}
@@ -66,76 +69,15 @@ function Home() {
           </div>
         </div>
         <div className='home__popularCategories-categories'>
-          <div className='sneakers'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sneakers.jpg'
-                alt='Sneakers'
-              />
-            </div>
-            <div className='categoriesName'><h3>Sneakers</h3></div>
-          </div>
-          <div className='koreanBeauty'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Korean_beauty.jpg'
-                alt='Korean beauty'
-              />
-            </div>
-            <div className='categoriesName'><h3>Korean beauty</h3></div>
-          </div>
-          <div className='Wristwatches'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Wristwatches.jpg'
-                alt='Wristwatches'
-              />
-            </div>
-            <div className='categoriesName'><h3>Wristwatches</h3></div>
-          </div>
-          <div className='Fishing'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Fishing.jpg'
-                alt='Fishing'
-              />
-            </div>
-            <div className='categoriesName'><h3>Fishing</h3></div>
-          </div>
-          <div className='Collectibles'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Collectibles.jpg'
-                alt='Collectibles'
-              />
-            </div>
-            <div className='categoriesName'><h3>Collectibles</h3></div>
-          </div>
-          <div className='Smartphones'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Smartphones.jpg'
-                alt='Smartphones'
-              />
-            </div>
-            <div className='categoriesName'><h3>Smartphones</h3></div>
-          </div>
-          <div className='Sell'>
-            <div className='containerBrandsOrCategories'>
-              <img
-                className='imageBrandsOrCategories'
-                src='/images/Explore_Popular_Categories/Sell.jpg'
-                alt='Sell'
-              />
-            </div>
-            <div className='categoriesName'><h3>Sell</h3></div>
-          </div>
+          {productsExplorePopularCategories.map((el, i) => (
+            <ExplorePopularCategories
+              key={i}
+              className={el.className}
+              categoryName={el.categoryName}
+              srcImg={el.srcImg}
+              altImg={el.altImg}
+            />
+          ))}
         </div>
       </div>
       <div className='home__dailyDeals'>

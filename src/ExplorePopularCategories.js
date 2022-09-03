@@ -1,10 +1,18 @@
 import React from 'react';
 import './Home.css';
 
-function ExplorePopularCategories() {
+function ExplorePopularCategories(props) {
+  const { key, className, categoryName, srcImg, altImg } = props;
   return (
-    <div>
-      
+    <div className={className} key={key}>
+      <div className='containerBrandsOrCategories'>
+        <img
+          className='imageBrandsOrCategories'
+          src={srcImg}
+          alt={altImg}
+        />
+      </div>
+      <div className='categoriesName'><h3>{categoryName}</h3></div>
     </div>
   );
 }
