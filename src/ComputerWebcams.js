@@ -2,9 +2,9 @@ import React from 'react';
 import './Home.css';
 
 function ComputerWebcams(props) {
-  const { myKey, productName, srcImg, altImg, price, discount } = props;
+  const { productName, srcImg, altImg, price, discount } = props;
   return (
-    <div className={productName} key={myKey}>
+    <div className={productName}>
       <div className='containerComputerWebcams'>
         <img
           className='imageComputerWebcams'

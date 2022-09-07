@@ -2,9 +2,9 @@ import React from 'react';
 import './Home.css';
 
 function DailyDeals(props) {
-  const { myKey, productName, srcImg, altImg, price } = props;
+  const { productName, srcImg, altImg, price } = props;
   return (
-    <div className={productName} key={myKey}>
+    <div className={productName}>
       <div className='containerDailyDeals'>
         <img
           className='imageDailyDeals'
