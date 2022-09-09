@@ -13,10 +13,10 @@ function App() {
       <div className='app'>
         <Routes>
           <Route path='/' element={[
-            <HeaderContainer />,
-            <SearchContainer />,
-            <Home />,
-            <GlobalFooterContainer />
+            <HeaderContainer key='1' />,
+            <SearchContainer key='2' />,
+            <Home key='3' />,
+            <GlobalFooterContainer key='4' />
           ]} />
         </Routes>
         <ScrollToTop />
