@@ -1,6 +1,7 @@
 import React from 'react';
 import './GlobalFooterContainer.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import FooterCopyright from './FooterCopyright';
 
 function GlobalFooterContainer() {
   return (
@@ -76,7 +77,7 @@ function GlobalFooterContainer() {
           </div>
         </div>
         <div className='globalFooterContainer__footer-copyright'>
-          Copyright &copy; 1995-2022 eBay Inc. All Rights Reserved.&nbsp;<div>Accessibility</div>,&nbsp;<div>User Agreement</div>,&nbsp;<div>Privacy</div>,&nbsp;<div>Cookies</div>,&nbsp;<div>Do not sell my personal information</div>&nbsp;and&nbsp;<div>AdChoice</div>
+          <FooterCopyright />
         </div>
       </div>
     </div>

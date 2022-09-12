@@ -45,13 +45,3 @@
 .eBaySitesMenu-expanded {
   display: flex;
 }
-
-.globalFooterContainer__footer-copyright {
-  display: flex;
-  font-size: 11px;
-  color: #41413f;
-}
-
-.globalFooterContainer__footer-copyright>div {
-  color: #707070;
-}
