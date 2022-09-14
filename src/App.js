@@ -4,6 +4,7 @@ import HeaderContainer from './HeaderContainer';
 import Home from './Home';
 import ScrollToTop from './ScrollToTop';
 import SearchContainer from './SearchContainer';
+import SignIn from './SignIn';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
     <BrowserRouter>
       <div className='app'>
         <Routes>
+          <Route path='/signin' element={[
+            <SignIn />
+          ]} />
           <Route path='/' element={[
             <HeaderContainer key='1' />,
             <SearchContainer key='2' />,
