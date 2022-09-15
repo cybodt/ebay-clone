@@ -5,8 +5,16 @@ import './SignIn.css';
 function SignIn() {
   return (
     <div className='signIn'>
-      <div className='signIn__survey'></div>
-      <div className='signIn__eBayLogo'></div>
+      <div className='signIn__survey'>
+        Tell us what you think
+      </div>
+      <div className='signIn__eBayLogo'>
+        <img
+          className='signIn__ebayLogo'
+          src='/images/eBay_logo.jpg'
+          alt='eBay logo'
+        />
+      </div>
       <div className='signIn__signInForm'></div>
       <div className='signIn__footer'>
         <FooterCopyright />

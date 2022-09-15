@@ -14,7 +14,7 @@ function App() {
       <div className='app'>
         <Routes>
           <Route path='/signin' element={[
-            <SignIn />
+            <SignIn key='1' />
           ]} />
           <Route path='/' element={[
             <HeaderContainer key='1' />,

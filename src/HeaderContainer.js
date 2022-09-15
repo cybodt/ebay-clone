@@ -3,6 +3,7 @@ import './HeaderContainer.css';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from 'react-router-dom';
 
 function HeaderContainer() {
   return (
@@ -12,7 +13,11 @@ function HeaderContainer() {
           <div className='headerLineOne__left'>
             <div className='signInAndRegister'>
               Hi!&nbsp;
-              <span className='signIn'>Sign in</span>
+              <Link to='/signin'>
+                <span className='signIn'>
+                  Sign in
+                </span>
+              </Link>
               &nbsp;or&nbsp;
               <span className='register'>register</span>
             </div>
