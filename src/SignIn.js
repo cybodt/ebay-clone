@@ -14,7 +14,28 @@ function SignIn() {
           alt='eBay logo'
         />
       </div>
-      <div className='signIn__signInForm'></div>
+      <div className='signIn__container'>
+        <div className='signIn__container-intro'>
+          <h1 className='heading'>Hello</h1>
+          <div className='sub-heading'>
+            Sign in to eBay or&nbsp;
+            <div id='create-account-link'>
+              create an account
+            </div>
+          </div>
+        </div>
+        <form className='signIn__container-form'>
+          <div className='signIn__container-form__noticeAttention'>
+            <div className='signIn__container-form__noticeAttention-icon'></div>
+            <div className='signIn__container-form__noticeAttention-text'>
+              Oops, that's not a match.
+            </div>
+          </div>
+          <div className='signIn__container-form__emailOrUsernameContainer'>
+            
+          </div>
+        </form>
+      </div>
       <div className='signIn__footer'>
         <FooterCopyright />
       </div>

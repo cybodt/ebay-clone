@@ -14,12 +14,12 @@ function HeaderContainer() {
             <div className='signInAndRegister'>
               Hi!&nbsp;
               <Link to='/signin'>
-                <span className='signIn'>
+                <span className='signInAndRegister__signIn'>
                   Sign in
                 </span>
               </Link>
               &nbsp;or&nbsp;
-              <span className='register'>register</span>
+              <span className='signInAndRegister__register'>register</span>
             </div>
             <div className='globalDeals'>Daily Deals</div>
             <div className='helpAndContact'>Help & Contact</div>
