@@ -12,7 +12,7 @@ function SearchContainer() {
         <img
           src='/images/eBay_logo.jpg'
           alt='eBay logo'
-          className='searchContainer__logo'
+          className='searchContainer__eBayLogo'
         />
       </Link>
       <div className='searchContainer__shopByCategory'>

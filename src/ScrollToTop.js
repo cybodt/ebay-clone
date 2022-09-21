@@ -31,7 +31,7 @@ function ScrollToTop() {
       }}
       title='Scroll to top'
     >
-      <KeyboardArrowUpIcon className='arrowUpIcon' fontSize='large' />
+      <KeyboardArrowUpIcon fontSize='large' />
     </div>
   );
 };

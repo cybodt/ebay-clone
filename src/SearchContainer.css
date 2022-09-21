@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.searchContainer__logo {
+.searchContainer__eBayLogo {
   width: 134px;
   aspect-ratio: auto;
 }
@@ -50,7 +50,7 @@
 .searchContainer__searchInput>input {
   width: 100%;
   border: 0;
-  outline: 0;
+  outline: none;
   font-size: 1.2em;
   font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Sans-serif;
 }
