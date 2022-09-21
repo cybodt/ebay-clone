@@ -9,7 +9,11 @@ function SearchContainer() {
   return (
     <div className='searchContainer'>
       <Link to='/'>
-        <img src='/images/eBay_logo.jpg' alt='eBay logo' className='searchContainer__logo' />
+        <img
+          src='/images/eBay_logo.jpg'
+          alt='eBay logo'
+          className='searchContainer__logo'
+        />
       </Link>
       <div className='searchContainer__shopByCategory'>
         <div>Shop by<br></br>category</div>
@@ -32,7 +36,10 @@ function SearchContainer() {
           <option value='Baby'>Baby</option>
         </select>
       </div>
-      <button type='submit' className='searchContainer__buttonSearch'>
+      <button
+        type='submit'
+        className='searchContainer__buttonSearch'
+      >
         Search
       </button>
       <div className='searchContainer__advancedSearch'>

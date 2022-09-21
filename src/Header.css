@@ -1,4 +1,4 @@
-.headerContainer {
+.header {
   width: 1312px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.headerLineOne {
+.header__nav {
   width: 1248px;
   height: 25px;
   display: flex;
@@ -16,23 +16,23 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Sans-serif;
 }
 
-.headerLineOne__left {
+.header__navLeft {
   display: flex;
   align-items: center;
 
 }
 
-.headerLineOne__left>div {
+.header__navLeft>div {
   margin-right: 30px;
   color: #000;
 }
 
-.headerLineOne__right {
+.header__navRight {
   display: flex;
   align-items: center;
 }
 
-.headerLineOne__right>div {
+.header__navRight>div {
   margin-left: 30px;
   cursor: pointer;
 }
@@ -45,20 +45,20 @@
   align-items: center;
 }
 
-.signInAndRegister__signIn,
-.signInAndRegister__register {
+.header__signIn,
+.header__register {
   color: #0654ba;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.globalDeals,
-.helpAndContact {
+.header__globalDeals,
+.header__helpAndContact {
   cursor: pointer;
 }
 
-.globalDeals:hover,
-.helpAndContact:hover,
+.header__globalDeals:hover,
+.header__helpAndContact:hover,
 .sell:hover {
   text-decoration: underline;
 }
@@ -71,7 +71,7 @@
   color: #0654ba;
 }
 
-.headerBottomLine {
+.header__bottomLine {
   min-width: 1312px;
   border-bottom: 1px solid #ccc;
 }
