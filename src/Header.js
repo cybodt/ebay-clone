@@ -25,20 +25,20 @@ function Header() {
             <div className='header__helpAndContact'>Help & Contact</div>
           </div>
           <div className='header__navRight'>
-            <div className='shipTo'>Ship to</div>
-            <div className='sell'>Sell</div>
-            <div className='watchlist'>
+            <div className='header__shipTo'>Ship to</div>
+            <div className='header__sell'>Sell</div>
+            <div className='header__watchlist'>
               <span>Watchlist</span>
               <KeyboardArrowDownIcon />
             </div>
-            <div className='my_ebay'>
+            <div className='header__myEBay'>
               <span>My eBay</span>
               <KeyboardArrowDownIcon />
             </div>
-            <div className='notifications'>
+            <div className='header__notifications'>
               <NotificationsNoneIcon />
             </div>
-            <div className='shoppingCart'>
+            <div className='header__shoppingCart'>
               <ShoppingCartOutlinedIcon />
             </div>
           </div>

@@ -37,10 +37,10 @@
   cursor: pointer;
 }
 
-.watchlist,
-.my_ebay,
-.shipTo,
-.sell {
+.header__watchlist,
+.header__myEBay,
+.header__shipTo,
+.header__sell {
   display: flex;
   align-items: center;
 }
@@ -59,15 +59,15 @@
 
 .header__globalDeals:hover,
 .header__helpAndContact:hover,
-.sell:hover {
+.header__sell:hover {
   text-decoration: underline;
 }
 
-.shipTo:hover {
+.header__shipTo:hover {
   color: #0654ba;
 }
 
-.shoppingCart:hover {
+.header__shoppingCart:hover {
   color: #0654ba;
 }
 
