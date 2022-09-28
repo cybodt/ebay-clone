@@ -3,31 +3,31 @@
   margin: 0 auto;
 }
 
-.home__navBarContainer {
+.navBarContainer {
   width: 1312px;
   margin: 0 auto;
 }
 
-.home__navBarContainer-topLine,
+.navBarContainer__topLine,
 .home__navBarContainer-bottomLine {
   border-bottom: 1px solid #ccc;
 }
 
-.home__navBarContainer-navBar {
+.navBarContainer__navBar {
   height: 33px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home__navBarContainer-navBar>div {
+.navBarContainer__navBar>div {
   margin-bottom: -1px;
   padding: 9px 12px;
   font-family: 'Market Sans', Arial, sans-serif;
   color: #555;
 }
 
-.home__navBarContainer-navBar>div>span:hover {
+.navBarContainer__navBar>div>span:hover {
   cursor: pointer;
 }
 

@@ -15,10 +15,10 @@ import ExplorePopularCategories from './ExplorePopularCategories';
 function Home() {
   return (
     <div className='home'>
-      <div className='home__navBarContainer'>
-        <div className='home__navBarContainer-topLine'></div>
-        <div className='home__navBarContainer-navBar'>
-          <div className='home__navBarContainer-home'><span>Home</span></div>
+      <div className='navBarContainer'>
+        <div className='navBarContainer__topLine'></div>
+        <div className='navBarContainer__navBar'>
+          <div className='navBarContainer__home'><span>Home</span></div>
           <div className='home__navBarContainer-saved'><span>Saved</span></div>
           <div className='home__navBarContainer-electronics'><span>Electronics</span></div>
           <div className='home__navBarContainer-fashion'><span>Fashion</span></div>
