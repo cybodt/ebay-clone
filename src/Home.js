@@ -19,17 +19,17 @@ function Home() {
         <div className='navBarContainer__topLine'></div>
         <div className='navBarContainer__navBar'>
           <div className='navBarContainer__home'><span>Home</span></div>
-          <div className='home__navBarContainer-saved'><span>Saved</span></div>
-          <div className='home__navBarContainer-electronics'><span>Electronics</span></div>
-          <div className='home__navBarContainer-fashion'><span>Fashion</span></div>
-          <div className='home__navBarContainer-health&Beauty'><span>Health & Beauty</span></div>
-          <div className='home__navBarContainer-home&Garden'><span>Home & Garden</span></div>
-          <div className='home__navBarContainer-sports'><span>Sports</span></div>
-          <div className='home__navBarContainer-collectiblesAndArt'><span>Collectibles and Art</span></div>
-          <div className='home__navBarContainer-industrialEquipment'><span>Industrial equipment</span></div>
-          <div className='home__navBarContainer-motors'><span>Motors</span></div>
-          <div className='home__navBarContainer-deals'><span>Deals</span></div>
-          <div className='home__navBarContainer-sell'><span>Sell</span></div>
+          <div className='navBarContainer__saved'><span>Saved</span></div>
+          <div className='navBarContainer__electronics'><span>Electronics</span></div>
+          <div className='navBarContainer__fashion'><span>Fashion</span></div>
+          <div className='navBarContainer__health&Beauty'><span>Health & Beauty</span></div>
+          <div className='navBarContainer__home&Garden'><span>Home & Garden</span></div>
+          <div className='navBarContainer__sports'><span>Sports</span></div>
+          <div className='navBarContainer__collectiblesAndArt'><span>Collectibles and Art</span></div>
+          <div className='navBarContainer__industrialEquipment'><span>Industrial equipment</span></div>
+          <div className='navBarContainer__motors'><span>Motors</span></div>
+          <div className='navBarContainer__deals'><span>Deals</span></div>
+          <div className='navBarContainer__sell'><span>Sell</span></div>
         </div>
         <div className='home__navBarContainer-bottomLine'></div>
       </div>
