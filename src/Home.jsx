@@ -31,9 +31,9 @@ function Home() {
           <div className='navBarContainer__deals'><span>Deals</span></div>
           <div className='navBarContainer__sell'><span>Sell</span></div>
         </div>
-        <div className='home__navBarContainer-bottomLine'></div>
+        <div className='navBarContainer__bottomLine'></div>
       </div>
-      <div className='home__carouselContainer'>
+      <div className='homeCarouselContainer'>
         <HomeCarousel />
       </div>
       <div className='home__popularBrands'>

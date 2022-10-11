@@ -9,7 +9,7 @@
 }
 
 .navBarContainer__topLine,
-.home__navBarContainer-bottomLine {
+.navBarContainer__bottomLine {
   border-bottom: 1px solid #ccc;
 }
 
@@ -38,7 +38,7 @@
   font-weight: bold;
 }
 
-.home__carouselContainer {
+.homeCarouselContainer {
   width: 1312px;
   margin-bottom: 16px;
 }
