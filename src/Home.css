@@ -3,35 +3,35 @@
   margin: 0 auto;
 }
 
-.navBarContainer {
+.nav-bar-container {
   width: 1312px;
   margin: 0 auto;
 }
 
-.navBarContainer__topLine,
-.navBarContainer__bottomLine {
+.nav-bar-container__top-line,
+.nav-bar-container__bottomLine {
   border-bottom: 1px solid #ccc;
 }
 
-.navBarContainer__navBar {
+.nav-bar-container__nav-bar {
   height: 33px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navBarContainer__navBar>div {
+.nav-bar-container__nav-bar>div {
   margin-bottom: -1px;
   padding: 9px 12px;
   font-family: 'Market Sans', Arial, sans-serif;
   color: #555;
 }
 
-.navBarContainer__navBar>div>span:hover {
+.nav-bar-container__nav-bar>div>span:hover {
   cursor: pointer;
 }
 
-.home__navBarConatiner-home>span {
+.nav-bar-container__home>span {
   padding-bottom: 4px !important;
   border-bottom: solid 2px #555;
   color: #333 !important;

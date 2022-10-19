@@ -15,23 +15,23 @@ import ExplorePopularCategories from './ExplorePopularCategories';
 function Home() {
   return (
     <div className='home'>
-      <div className='navBarContainer'>
-        <div className='navBarContainer__topLine'></div>
-        <div className='navBarContainer__navBar'>
-          <div className='navBarContainer__home'><span>Home</span></div>
-          <div className='navBarContainer__saved'><span>Saved</span></div>
-          <div className='navBarContainer__electronics'><span>Electronics</span></div>
-          <div className='navBarContainer__fashion'><span>Fashion</span></div>
-          <div className='navBarContainer__health&Beauty'><span>Health & Beauty</span></div>
-          <div className='navBarContainer__home&Garden'><span>Home & Garden</span></div>
-          <div className='navBarContainer__sports'><span>Sports</span></div>
-          <div className='navBarContainer__collectiblesAndArt'><span>Collectibles and Art</span></div>
-          <div className='navBarContainer__industrialEquipment'><span>Industrial equipment</span></div>
-          <div className='navBarContainer__motors'><span>Motors</span></div>
-          <div className='navBarContainer__deals'><span>Deals</span></div>
-          <div className='navBarContainer__sell'><span>Sell</span></div>
+      <div className='nav-bar-container'>
+        <div className='nav-bar-container__top-line'></div>
+        <div className='nav-bar-container__nav-bar'>
+          <div className='nav-bar-container__home'><span>Home</span></div>
+          <div className='nav-bar-container__saved'><span>Saved</span></div>
+          <div className='nav-bar-container__electronics'><span>Electronics</span></div>
+          <div className='nav-bar-container__fashion'><span>Fashion</span></div>
+          <div className='nav-bar-container__health-and-beauty'><span>Health & Beauty</span></div>
+          <div className='nav-bar-container__home-and-garden'><span>Home & Garden</span></div>
+          <div className='nav-bar-container__sports'><span>Sports</span></div>
+          <div className='nav-bar-container__collectiblesAndArt'><span>Collectibles and Art</span></div>
+          <div className='nav-bar-container__industrialEquipment'><span>Industrial equipment</span></div>
+          <div className='nav-bar-container__motors'><span>Motors</span></div>
+          <div className='nav-bar-container__deals'><span>Deals</span></div>
+          <div className='nav-bar-container__sell'><span>Sell</span></div>
         </div>
-        <div className='navBarContainer__bottomLine'></div>
+        <div className='nav-bar-container__bottomLine'></div>
       </div>
       <div className='homeCarouselContainer'>
         <HomeCarousel />
