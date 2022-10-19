@@ -9,7 +9,7 @@
 }
 
 .nav-bar-container__top-line,
-.nav-bar-container__bottomLine {
+.nav-bar-container__bottom-line {
   border-bottom: 1px solid #ccc;
 }
 
@@ -38,12 +38,12 @@
   font-weight: bold;
 }
 
-.homeCarouselContainer {
+.home-carousel-container {
   width: 1312px;
   margin-bottom: 16px;
 }
 
-.home__popularBrands,
+.popular-brands,
 .home__popularCategories,
 .home__dailyDeals,
 .home__computerWebcams {
@@ -62,7 +62,7 @@
   height: 370px;
 }
 
-.home__popularBrands-headings,
+.popular-brands__headings,
 .home__popularCategories-headings,
 .home__dailyDeals-headings,
 .home__computerWebcams-headings {
@@ -70,14 +70,14 @@
   flex-wrap: wrap;
 }
 
-.home__popularBrands-explore,
+.popular-brands__explore,
 .home__popularCategories-explore,
 .home__dailyDeals-explore,
 .home__computerWebcams-explore {
   padding-right: 20px;
 }
 
-.home__popularBrands-seeAll,
+.popular-brands__see-all,
 .home__popularCategories-seeAll,
 .home__dailyDeals-seeAll,
 .home__computerWebcams-seeAll {
@@ -99,7 +99,7 @@
   font-family: 'Market Sans', Arial, sans-serif;
 }
 
-.home__popularBrands-brands,
+.popular-brands__brands,
 .home__popularCategories-categories,
 .home__dailyDeals-deals,
 .home__computerWebcams-webcams {
@@ -117,7 +117,7 @@
   overflow-x: scroll;
 }
 
-.home__popularBrands-brands>div,
+.popular-brands__brands>div,
 .home__popularCategories-categories>div {
   width: 152px;
   height: 184px;

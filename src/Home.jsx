@@ -25,28 +25,28 @@ function Home() {
           <div className='nav-bar-container__health-and-beauty'><span>Health & Beauty</span></div>
           <div className='nav-bar-container__home-and-garden'><span>Home & Garden</span></div>
           <div className='nav-bar-container__sports'><span>Sports</span></div>
-          <div className='nav-bar-container__collectiblesAndArt'><span>Collectibles and Art</span></div>
-          <div className='nav-bar-container__industrialEquipment'><span>Industrial equipment</span></div>
+          <div className='nav-bar-container__collectibles-and-art'><span>Collectibles and Art</span></div>
+          <div className='nav-bar-container__industrial-equipment'><span>Industrial equipment</span></div>
           <div className='nav-bar-container__motors'><span>Motors</span></div>
           <div className='nav-bar-container__deals'><span>Deals</span></div>
           <div className='nav-bar-container__sell'><span>Sell</span></div>
         </div>
-        <div className='nav-bar-container__bottomLine'></div>
+        <div className='nav-bar-container__bottom-line'></div>
       </div>
-      <div className='homeCarouselContainer'>
+      <div className='home-carousel-container'>
         <HomeCarousel />
       </div>
-      <div className='home__popularBrands'>
-        <div className='home__popularBrands-headings'>
-          <div className='home__popularBrands-explore'>
+      <div className='popular-brands'>
+        <div className='popular-brands__headings'>
+          <div className='popular-brands__explore'>
             <h2>Explore popular brands</h2>
           </div>
-          <div className='home__popularBrands-seeAll'>
+          <div className='popular-brands__see-all'>
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
         </div>
-        <div className='home__popularBrands-brands'>
+        <div className='popular-brands__brands'>
           {productsExplorePopularBrands.map((el, i) => (
             <ExplorePopularBrands
               key={i}
