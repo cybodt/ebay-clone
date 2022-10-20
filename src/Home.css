@@ -44,7 +44,7 @@
 }
 
 .popular-brands,
-.home__popularCategories,
+.popular-categories,
 .home__dailyDeals,
 .home__computerWebcams {
   width: 1248px;
@@ -63,7 +63,7 @@
 }
 
 .popular-brands__headings,
-.home__popularCategories-headings,
+.popular-categories__headings,
 .home__dailyDeals-headings,
 .home__computerWebcams-headings {
   display: flex;
@@ -71,14 +71,14 @@
 }
 
 .popular-brands__explore,
-.home__popularCategories-explore,
+.popular-categories__explore,
 .home__dailyDeals-explore,
 .home__computerWebcams-explore {
   padding-right: 20px;
 }
 
 .popular-brands__see-all,
-.home__popularCategories-seeAll,
+.popular-categories__see-all,
 .home__dailyDeals-seeAll,
 .home__computerWebcams-seeAll {
   display: flex;
@@ -100,7 +100,7 @@
 }
 
 .popular-brands__brands,
-.home__popularCategories-categories,
+.popular-categories__categories,
 .home__dailyDeals-deals,
 .home__computerWebcams-webcams {
   display: flex;
@@ -118,7 +118,7 @@
 }
 
 .popular-brands__brands>div,
-.home__popularCategories-categories>div {
+.popular-categories__categories>div {
   width: 152px;
   height: 184px;
   display: flex;

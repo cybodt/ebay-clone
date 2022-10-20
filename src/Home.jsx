@@ -58,17 +58,17 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className='home__popularCategories'>
-        <div className='home__popularCategories-headings'>
-          <div className='home__popularCategories-explore'>
+      <div className='popular-categories'>
+        <div className='popular-categories__headings'>
+          <div className='popular-categories__explore'>
             <h2>Explore Popular Categories</h2>
           </div>
-          <div className='home__popularCategories-seeAll'>
+          <div className='popular-categories__see-all'>
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
         </div>
-        <div className='home__popularCategories-categories'>
+        <div className='popular-categories__categories'>
           {productsExplorePopularCategories.map((el, i) => (
             <ExplorePopularCategories
               key={i}
