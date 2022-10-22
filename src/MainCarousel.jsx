@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './HomeCarousel.css';
+import './MainCarousel.css';
 import Carousel from 'react-material-ui-carousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Paper, Button } from '@mui/material';
@@ -17,19 +17,19 @@ function Item(props) {
   };
 
   return (
-    <Paper className='paper' style={{ backgroundColor: props.item.bgColor }}>
-      <div className='paper__left'>
-        <div className='paper__left-heading'>
+    <Paper className='paper-main' style={{ backgroundColor: props.item.bgColor }}>
+      <div className='paper-main__left'>
+        <div className='paper-main__heading'>
           <h2 style={{ color: props.item.nameColor }}>
             {props.item.name}
           </h2>
         </div>
-        <div className='paper__left-paragraph'>
+        <div className='paper-main__paragraph'>
           <p style={{ color: props.item.descriptionColor }}>
             {props.item.description}
           </p>
         </div>
-        <Button className="CheckButton" style={{
+        <Button className="paper-main__check-button" style={{
           color: isHovering ? props.item.buttonHoverColor : props.item.buttonColor,
           borderWidth: '1px',
           borderStyle: 'solid',
@@ -43,14 +43,18 @@ function Item(props) {
           <ArrowForwardIcon fontSize='large' />
         </Button>
       </div>
-      <div className='paper__right'>
-        <img src={props.item.srcImg} alt={props.item.altImg} className='imgCarousel' />
+      <div className='paper-main__right'>
+        <img 
+        className='paper-main__img-carousel' 
+        src={props.item.srcImg} 
+        alt={props.item.altImg} 
+        />
       </div>
     </Paper>
   )
 }
 
-function HomeCarousel() {
+function MainCarousel() {
   const items = [
     {
       name: 'Everyone says these sellers are the best!',
@@ -89,7 +93,6 @@ function HomeCarousel() {
       duration={1000}
       indicators={false}
       navButtonsProps={{
-        className: 'testCarousel1',
         style: {
           margin: 0,
           width: 25,
@@ -99,9 +102,6 @@ function HomeCarousel() {
           color: 'black'
         }
       }}
-      navButtonsWrapperProps={{
-        className: 'wrapperButtons'
-      }}
     >
       {
         items.map((item, i) => <Item key={i} item={item} />)
@@ -110,4 +110,4 @@ function HomeCarousel() {
   );
 };
 
-export default HomeCarousel;
+export default MainCarousel;

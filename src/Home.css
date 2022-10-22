@@ -45,8 +45,8 @@
 
 .popular-brands,
 .popular-categories,
-.home__dailyDeals,
-.home__computerWebcams {
+.daily-deals,
+.computer-webcams {
   width: 1248px;
   height: 253px;
   display: flex;
@@ -54,33 +54,33 @@
   margin: 32px auto 64px;
 }
 
-.home__dailyDeals {
+.daily-deals {
   height: 330px;
 }
 
-.home__computerWebcams {
+.computer-webcams {
   height: 370px;
 }
 
 .popular-brands__headings,
 .popular-categories__headings,
-.home__dailyDeals-headings,
-.home__computerWebcams-headings {
+.daily-deals__headings,
+.computer-webcams__headings {
   display: flex;
   flex-wrap: wrap;
 }
 
 .popular-brands__explore,
 .popular-categories__explore,
-.home__dailyDeals-explore,
-.home__computerWebcams-explore {
+.daily-deals__explore,
+.computer-webcams__explore {
   padding-right: 20px;
 }
 
 .popular-brands__see-all,
 .popular-categories__see-all,
-.home__dailyDeals-seeAll,
-.home__computerWebcams-seeAll {
+.daily-deals__see-all,
+.computer-webcams__see-all {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,7 +92,7 @@
   font-family: 'Market Sans', Arial, sans-serif;
 }
 
-.recommendedProducts {
+.computer-webcams__recommended {
   flex: 0 0 100%;
   line-height: 1.3;
   color: #707070;
@@ -101,19 +101,19 @@
 
 .popular-brands__brands,
 .popular-categories__categories,
-.home__dailyDeals-deals,
-.home__computerWebcams-webcams {
+.daily-deals__deals,
+.computer-webcams__webcams {
   display: flex;
 }
 
-.home__dailyDeals-deals,
-.home__computerWebcams-webcams {
+.daily-deals__deals,
+.computer-webcams__webcams {
   padding-bottom: 10px;
   overflow: hidden;
 }
 
-.home__dailyDeals-deals:hover,
-.home__computerWebcams-webcams:hover {
+.daily-deals__deals:hover,
+.computer-webcams__webcams:hover {
   overflow-x: scroll;
 }
 
@@ -127,7 +127,7 @@
   margin: 30px 14px 0;
 }
 
-.home__dailyDeals-deals>div {
+.daily-deals__deals>div {
   margin-right: 16px;
 }
 

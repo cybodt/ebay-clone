@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import HomeCarousel from './HomeCarousel';
+import MainCarousel from './MainCarousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import productsDailyDeals from './ArrayDailyDeals';
 import DailyDeals from './DailyDeals';
@@ -34,7 +34,7 @@ function Home() {
         <div className='nav-bar-container__bottom-line'></div>
       </div>
       <div className='home-carousel-container'>
-        <HomeCarousel />
+        <MainCarousel />
       </div>
       <div className='popular-brands'>
         <div className='popular-brands__headings'>
@@ -80,17 +80,17 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className='home__dailyDeals'>
-        <div className='home__dailyDeals-headings'>
-          <div className='home__dailyDeals-explore'>
+      <div className='daily-deals'>
+        <div className='daily-deals__headings'>
+          <div className='daily-deals__explore'>
             <h2>Daily Deals</h2>
           </div>
-          <div className='home__dailyDeals-seeAll'>
+          <div className='daily-deals__see-all'>
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
         </div>
-        <div className='home__dailyDeals-deals'>
+        <div className='daily-deals__deals'>
           {productsDailyDeals.map((el, i) => (
             <DailyDeals
               key={i}
@@ -102,18 +102,18 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className='home__computerWebcams'>
-        <div className='home__computerWebcams-headings'>
-          <div className='home__computerWebcams-explore'>
+      <div className='computer-webcams'>
+        <div className='computer-webcams__headings'>
+          <div className='computer-webcams__explore'>
             <h2>Computer Webcams</h2>
           </div>
-          <div className='home__computerWebcams-seeAll'>
+          <div className='computer-webcams__see-all'>
             <div>See all&nbsp;</div>
             <ArrowForwardIcon fontSize='large' />
           </div>
-          <div className='recommendedProducts'>Recommended for you</div>
+          <div className='computer-webcams__recommended'>Recommended for you</div>
         </div>
-        <div className='home__computerWebcams-webcams'>
+        <div className='computer-webcams__webcams'>
           {productsComputerWebcams.map((el, i) => (
             <ComputerWebcams
               key={i}

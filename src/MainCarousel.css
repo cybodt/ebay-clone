@@ -1,10 +1,10 @@
-.paper {
+.paper-main {
   width: 1312px;
   height: 330px;
   display: flex;
 }
 
-.paper__left {
+.paper-main__left {
   width: 364px;
   display: flex;
   flex-direction: column;
@@ -13,20 +13,20 @@
   font-family: "Market Sans", Arial, sans-serif;
 }
 
-.paper__left-heading {
+.paper-main__heading {
   width: 288px;
   line-height: 1.3;
   font-size: 1.5rem;
 }
 
-.paper__left-paragraph {
+.paper-main__paragraph {
   width: 288px;
   margin: 10px 0;
   line-height: 1.3;
   font-size: 1.1rem;
 }
 
-.CheckButton {
+.paper-main__check-button {
   width: fit-content;
   margin-top: 15px !important;
   padding: 4px 12px !important;
@@ -35,12 +35,12 @@
   border-radius: 0 !important;
 }
 
-.paper__right {
+.paper-main__right {
   width: 918px;
   height: 330px;
 }
 
-.imgCarousel {
+.paper-main__img-carousel {
   object-fit: none;
   width: 918px;
   height: 330px;
