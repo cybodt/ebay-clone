@@ -33,7 +33,7 @@ function Home() {
         </div>
         <div className='nav-bar-container__bottom-line'></div>
       </div>
-      <div className='home-carousel-container'>
+      <div className='main-carousel-container'>
         <MainCarousel />
       </div>
       <div className='popular-brands'>
