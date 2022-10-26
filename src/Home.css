@@ -138,7 +138,7 @@
 
 .imageBrandsOrCategories,
 .imageDailyDeals,
-.imageComputerWebcams {
+.computer-webcams-image-container__image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -151,7 +151,7 @@
 }
 
 .containerDailyDeals,
-.containerComputerWebcams {
+.computer-webcams-image-container {
   width: 209px;
   height: 209px;
   display: flex;
@@ -162,7 +162,7 @@
 }
 
 .containerDailyDeals-price,
-.containerComputerWebcams-price {
+.computer-webcams-price-container {
   width: 209px;
   height: 19px;
   margin-top: 16px;
@@ -171,25 +171,25 @@
   font-weight: 700;
 }
 
-.containerComputerWebcams-price {
+.computer-webcams-price-container {
   height: 42px;
 }
 
-.computerWebcams-price {
+.computer-webcams-price-container__price {
   display: block;
 }
 
-.computerWebcams-discount {
+.computer-webcams-price-container__discount {
   display: block;
   font-size: .875rem;
   color: #707070;
 }
 
-.computerWebcams-discount>span:first-child {
+.computer-webcams-price-container__discount>span:first-child {
   text-decoration: line-through;
 }
 
-.computerWebcams-discount>span:nth-child(2) {
+.computer-webcams-price-container__discount>span:nth-child(2) {
   margin-left: 10px;
   margin-right: 10px;
   content: "\00B7";

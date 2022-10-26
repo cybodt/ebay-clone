@@ -5,18 +5,18 @@ function ComputerWebcams(props) {
   const { productName, srcImg, altImg, price, discount } = props;
   return (
     <div className={productName}>
-      <div className='containerComputerWebcams'>
+      <div className='computer-webcams-image-container'>
         <img
-          className='imageComputerWebcams'
+          className='computer-webcams-image-container__image'
           src={srcImg}
           alt={altImg}
         />
       </div>
-      <div className='containerComputerWebcams-price'>
-        <span className='computerWebcams-price'>
+      <div className='computer-webcams-price-container'>
+        <span className='computer-webcams-price-container__price'>
           {discount ? `$${Math.round(price - (price * discount / 100)).toFixed(2)}` : `$${price}`}
         </span>
-        <span className='computerWebcams-discount'>
+        <span className='computer-webcams-price-container__discount'>
           <span>{discount ? `$${price}` : ''}</span>
           {/* middle dot */}
           <span>{discount ? '\u00b7' : ''}</span>
