@@ -2,13 +2,13 @@ import React from 'react';
 import './Home.css';
 import MainCarousel from './MainCarousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import productsDailyDeals from './ArrayDailyDeals';
+import productsDailyDeals from './array-daily-deals';
 import DailyDeals from './DailyDeals';
-import productsComputerWebcams from './ArrayComputerWebcams';
+import productsComputerWebcams from './array-computer-webcams';
 import ComputerWebcams from './ComputerWebcams';
 import ExplorePopularBrands from './ExplorePopularBrands';
-import productsExplorePopularBrands from './ArrayExplorePopularBrands';
-import productsExplorePopularCategories from './ArrayExplorePopularCategories';
+import productsExplorePopularBrands from './array-explore-popular-brands';
+import productsExplorePopularCategories from './array-explore-popular-categories';
 import ExplorePopularCategories from './ExplorePopularCategories';
 
 

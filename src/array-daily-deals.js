@@ -89,6 +89,6 @@ const productsDailyDeals = [
     altImg: 'Logitech Ergo M575',
     price: '$53.96'
   }
-]
+];
 
 export default productsDailyDeals;
