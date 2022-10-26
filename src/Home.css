@@ -137,7 +137,7 @@
 }
 
 .imageBrandsOrCategories,
-.imageDailyDeals,
+.daily-deals-image-container__image,
 .computer-webcams-image-container__image {
   max-width: 100%;
   max-height: 100%;
@@ -150,7 +150,7 @@
   font-family: 'Market Sans', Arial, sans-serif;
 }
 
-.containerDailyDeals,
+.daily-deals-image-container,
 .computer-webcams-image-container {
   width: 209px;
   height: 209px;
@@ -161,7 +161,7 @@
   background-color: rgba(0, 0, 0, 0.02);
 }
 
-.containerDailyDeals-price,
+.daily-deals-price,
 .computer-webcams-price-container {
   width: 209px;
   height: 19px;
