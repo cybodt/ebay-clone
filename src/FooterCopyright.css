@@ -1,9 +1,9 @@
-.footerCopyright {
+.footer-copyright {
   display: flex;
   font-size: 11px;
   color: #41413f;
 }
 
-.footerCopyright>div {
+.footer-copyright>div {
   color: #707070;
 }

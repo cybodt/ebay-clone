@@ -5,14 +5,16 @@ function ExplorePopularCategories(props) {
   const { className, categoryName, srcImg, altImg } = props;
   return (
     <div className={className}>
-      <div className='containerBrandsOrCategories'>
+      <div className='brands-or-categories-image-container'>
         <img
-          className='imageBrandsOrCategories'
+          className='brands-or-categories-image-container__image'
           src={srcImg}
           alt={altImg}
         />
       </div>
-      <div className='categoriesName'><h3>{categoryName}</h3></div>
+      <div className='categories-name'>
+        <h3>{categoryName}</h3>
+      </div>
     </div>
   );
 }
