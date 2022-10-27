@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import GlobalFooterContainer from './GlobalFooterContainer';
+import GlobalFooter from './GlobalFooter';
 import Header from './Header';
 import Home from './Home';
 import ScrollToTop from './ScrollToTop';
@@ -20,7 +20,7 @@ function App() {
             <Header key='1' />,
             <SearchContainer key='2' />,
             <Home key='3' />,
-            <GlobalFooterContainer key='4' />
+            <GlobalFooter key='4' />
           ]} />
         </Routes>
         <ScrollToTop />

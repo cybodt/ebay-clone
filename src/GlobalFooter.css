@@ -1,9 +1,9 @@
-.globalFooterContainer {
+.global-footer {
   box-sizing: border-box;
   border-top: 1px solid #ccc;
 }
 
-.globalFooterContainer__footer {
+.global-footer__container {
   width: 1248px;
   height: 366px;
   line-height: 1;
@@ -16,32 +16,32 @@
   color: #767676;
 }
 
-.globalFooterContainer__footer-menus {
+.global-footer__menus {
   display: flex;
   justify-content: space-between;
 }
 
-.globalFooterContainer__footer-menus>div {
+.global-footer__menus>div {
   width: 240px;
   height: 310px;
   margin-top: 16px;
 }
 
-.globalFooterContainer__footer-menus>div>div {
+.global-footer__menus>div>div {
   margin-bottom: 32px;
 }
 
-.globalFooterContainer__footer-menus h3 {
+.global-footer__menus h3 {
   margin: 16px 0;
   font-weight: bold;
   font-size: 16px;
 }
 
-.listMenu {
+.global-footer__list-menu {
   margin-bottom: 12px;
   font-size: 12px;
 }
 
-.eBaySitesMenu-expanded {
+.global-footer__ebay-sites-menu-expanded {
   display: flex;
 }
