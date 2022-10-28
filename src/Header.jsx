@@ -10,43 +10,43 @@ function Header() {
     <div>
       <div className='header'>
         <div className='header__nav'>
-          <div className='header__navLeft'>
+          <div className='header__nav-left'>
             <div>
               Hi!&nbsp;
               <Link to='/signin'>
-                <span className='header__signIn'>
+                <span className='header__sign-in'>
                   Sign in
                 </span>
               </Link>
               &nbsp;or&nbsp;
               <span className='header__register'>register</span>
             </div>
-            <div className='header__globalDeals'>Daily Deals</div>
-            <div className='header__helpAndContact'>Help & Contact</div>
+            <div className='header__global-deals'>Daily Deals</div>
+            <div className='header__help-and-contact'>Help & Contact</div>
           </div>
-          <div className='header__navRight'>
-            <div className='header__shipTo'>Ship to</div>
+          <div className='header__nav-right'>
+            <div className='header__ship-to'>Ship to</div>
             <div className='header__sell'>Sell</div>
             <div className='header__watchlist'>
               <span>Watchlist</span>
               <KeyboardArrowDownIcon />
             </div>
-            <div className='header__myEBay'>
+            <div className='header__my-ebay'>
               <span>My eBay</span>
               <KeyboardArrowDownIcon />
             </div>
             <div className='header__notifications'>
               <NotificationsNoneIcon />
             </div>
-            <div className='header__shoppingCart'>
+            <div className='header__shopping-cart'>
               <ShoppingCartOutlinedIcon />
             </div>
           </div>
         </div>
       </div>
-      <div className='header__bottomLine'></div>
+      <div className='header-bottom-line'></div>
     </div>
-  )
+  );
 }
 
 export default Header;

@@ -16,62 +16,62 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Sans-serif;
 }
 
-.header__navLeft {
+.header__nav-left {
   display: flex;
   align-items: center;
 
 }
 
-.header__navLeft>div {
+.header__nav-left>div {
   margin-right: 30px;
   color: #000;
 }
 
-.header__navRight {
+.header__nav-right {
   display: flex;
   align-items: center;
 }
 
-.header__navRight>div {
+.header__nav-right>div {
   margin-left: 30px;
   cursor: pointer;
 }
 
 .header__watchlist,
-.header__myEBay,
-.header__shipTo,
+.header__my-ebay,
+.header__ship-to,
 .header__sell {
   display: flex;
   align-items: center;
 }
 
-.header__signIn,
+.header__sign-in,
 .header__register {
   color: #0654ba;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.header__globalDeals,
-.header__helpAndContact {
+.header__global-deals,
+.header__help-and-contact {
   cursor: pointer;
 }
 
-.header__globalDeals:hover,
-.header__helpAndContact:hover,
+.header__global-deals:hover,
+.header__help-and-contact:hover,
 .header__sell:hover {
   text-decoration: underline;
 }
 
-.header__shipTo:hover {
+.header__ship-to:hover {
   color: #0654ba;
 }
 
-.header__shoppingCart:hover {
+.header__shopping-cart:hover {
   color: #0654ba;
 }
 
-.header__bottomLine {
+.header-bottom-line {
   min-width: 1312px;
   border-bottom: 1px solid #ccc;
 }
