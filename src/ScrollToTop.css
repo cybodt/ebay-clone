@@ -1,4 +1,4 @@
-.scrollToTop {
+.scroll-to-top {
   position: fixed;
   width: 33px;
   height: 33px;
@@ -14,6 +14,6 @@
   border-radius: 4px;
 }
 
-.scrollToTop:hover {
+.scroll-to-top:hover {
   color: #0654ba;
 }
