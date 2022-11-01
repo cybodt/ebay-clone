@@ -7,20 +7,20 @@ import { Box } from '@mui/material';
 
 function SearchContainer() {
   return (
-    <div className='searchContainer'>
+    <div className='search-container'>
       <Link to='/'>
         <img
           src='/images/eBay_logo.jpg'
           alt='eBay logo'
-          className='searchContainer__eBayLogo'
+          className='search-container__ebay-logo'
         />
       </Link>
-      <div className='searchContainer__shopByCategory'>
+      <div className='search-container__shop-by-category'>
         <div>Shop by<br></br>category</div>
         <KeyboardArrowDownIcon fontSize='large' />
       </div>
-      <div className='searchContainer__search'>
-        <div className='searchContainer__searchInput'>
+      <div className='search-container__search'>
+        <div className='search-container__search-input'>
           <Box p={2}>
             <SearchIcon fontSize='large' />
           </Box>
@@ -29,7 +29,7 @@ function SearchContainer() {
             placeholder='Search for anything'
           />
         </div>
-        <select className='searchContainer__searchSelect'>
+        <select className='search-container__search-select'>
           <option value='All Categories'>All Categories</option>
           <option value='Antiques'>Antiques</option>
           <option value='Art'>Art</option>
@@ -38,15 +38,15 @@ function SearchContainer() {
       </div>
       <button
         type='submit'
-        className='searchContainer__buttonSearch'
+        className='search-container__button-search'
       >
         Search
       </button>
-      <div className='searchContainer__advancedSearch'>
+      <div className='search-container__advanced-search'>
         Advanced
       </div>
     </div>
-  )
+  );
 }
 
 export default SearchContainer;

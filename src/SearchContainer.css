@@ -1,4 +1,4 @@
-.searchContainer {
+.search-container {
   display: flex;
   height: 84px;
   width: 1248px;
@@ -7,12 +7,12 @@
   align-items: center;
 }
 
-.searchContainer__eBayLogo {
+.search-container__ebay-logo {
   width: 134px;
   aspect-ratio: auto;
 }
 
-.searchContainer__shopByCategory {
+.search-container__shop-by-category {
   display: flex;
   align-items: center;
   margin-left: 20px;
@@ -21,16 +21,16 @@
   cursor: pointer;
 }
 
-.searchContainer__shopByCategory>div:hover {
+.search-container__shop-by-category>div:hover {
   color: #0654ba;
 }
 
-.searchContainer__shopByCategory div:nth-child(2) {
+.search-container__shop-by-category div:nth-child(2) {
   padding-left: 10px;
   font-weight: bold;
 }
 
-.searchContainer__search {
+.search-container__search {
   height: 48px;
   display: flex;
   flex: 1;
@@ -40,14 +40,14 @@
   justify-content: space-between;
 }
 
-.searchContainer__searchInput {
+.search-container__search-input {
   display: flex;
   height: 100%;
   width: 100%;
   align-items: center;
 }
 
-.searchContainer__searchInput>input {
+.search-container__search-input>input {
   width: 100%;
   border: 0;
   outline: none;
@@ -55,15 +55,15 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Sans-serif;
 }
 
-.searchContainer__searchInput>input:focus {
+.search-container__search-input>input:focus {
   outline: none;
 }
 
-.searchContainer__searchInput>input:focus::placeholder {
+.search-container__search-input>input:focus::placeholder {
   color: transparent;
 }
 
-.searchContainer__searchSelect {
+.search-container__search-select {
   height: 100%;
   border-width: 0 0 0 2px;
   border-style: solid;
@@ -72,7 +72,7 @@
   font-family: Arial;
 }
 
-.searchContainer__buttonSearch {
+.search-container__button-search {
   height: 52px;
   min-width: 168px;
   margin-left: 6px;
@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 
-.searchContainer__advancedSearch {
+.search-container__advanced-search {
   padding-left: 10px;
   color: #767676;
   font-size: 0.9em;
@@ -91,6 +91,6 @@
   cursor: pointer;
 }
 
-.searchContainer__advancedSearch:hover {
+.search-container__advanced-search:hover {
   color: #0654ba;
 }
