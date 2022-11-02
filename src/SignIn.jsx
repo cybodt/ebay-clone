@@ -10,7 +10,7 @@ function SignIn() {
       </div>
       <div className='sign-in__ebay-logo'>
         <img
-          src='/images/eBay_logo.jpg'
+          src='/images/ebay-logo.jpg'
           alt='eBay logo'
         />
       </div>

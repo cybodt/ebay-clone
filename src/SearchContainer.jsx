@@ -10,7 +10,7 @@ function SearchContainer() {
     <div className='search-container'>
       <Link to='/'>
         <img
-          src='/images/eBay_logo.jpg'
+          src='/images/ebay-logo.jpg'
           alt='eBay logo'
           className='search-container__ebay-logo'
         />

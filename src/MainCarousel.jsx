@@ -67,7 +67,7 @@ function MainCarousel() {
       borderColor: '#5c1b05',
       bgColor: '#f7e376',
       bgHoverColor: '#5c1b05',
-      srcImg: '/images/banner_one.jpg',
+      srcImg: '/images/banner-one.jpg',
       altImg: 'banner one'
     },
     {
@@ -81,7 +81,7 @@ function MainCarousel() {
       borderColor: '#ffdec7',
       bgColor: '#b03005',
       bgHoverColor: '#ffdec7',
-      srcImg: '/images/banner_two.jpg',
+      srcImg: '/images/banner-two.jpg',
       altImg: 'banner two'
     }
   ]
