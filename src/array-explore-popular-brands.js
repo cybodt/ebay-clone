@@ -36,7 +36,7 @@ const productsExplorePopularBrands = [
     altImg: 'Nike'
   },
   {
-    className: 'brand-bornPretty',
+    className: 'brand-born-pretty',
     brandName: 'Born Pretty',
     srcImg: '/images/Explore_popular_brands/born-pretty.jpg',
     altImg: 'Born Pretty'
