@@ -2,43 +2,43 @@ const productsExplorePopularBrands = [
   {
     className: 'brand-apple',
     brandName: 'Apple',
-    srcImg: '/images/Explore_popular_brands/apple.jpg',
+    srcImg: '/images/explore-popular-brands/apple.jpg',
     altImg: 'Apple'
   },
   {
     className: 'brand-samsung',
     brandName: 'Samsung',
-    srcImg: '/images/Explore_popular_brands/samsung.jpg',
+    srcImg: '/images/explore-popular-brands/samsung.jpg',
     altImg: 'Samsung'
   },
   {
     className: 'brand-sony',
     brandName: 'Sony',
-    srcImg: '/images/Explore_popular_brands/sony.jpg',
+    srcImg: '/images/explore-popular-brands/sony.jpg',
     altImg: 'Sony'
   },
   {
     className: 'brand-ugreen',
     brandName: 'Ugreen',
-    srcImg: '/images/Explore_popular_brands/ugreen.jpg',
+    srcImg: '/images/explore-popular-brands/ugreen.jpg',
     altImg: 'Ugreen'
   },
   {
     className: 'brand-xiaomi',
     brandName: 'Xiaomi',
-    srcImg: '/images/Explore_popular_brands/xiaomi.jpg',
+    srcImg: '/images/explore-popular-brands/xiaomi.jpg',
     altImg: 'Xiaomi'
   },
   {
     className: 'brand-nike',
     brandName: 'Nike',
-    srcImg: '/images/Explore_popular_brands/nike.jpg',
+    srcImg: '/images/explore-popular-brands/nike.jpg',
     altImg: 'Nike'
   },
   {
     className: 'brand-born-pretty',
     brandName: 'Born Pretty',
-    srcImg: '/images/Explore_popular_brands/born-pretty.jpg',
+    srcImg: '/images/explore-popular-brands/born-pretty.jpg',
     altImg: 'Born Pretty'
   }
 ];
