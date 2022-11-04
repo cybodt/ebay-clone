@@ -32,7 +32,36 @@ function SignIn() {
             </div>
           </div>
           <div className='sign-in__email-or-username-container'>
-            
+            <input
+              type='text'
+              placeholder='Email or username'
+              className='sign-in__email-or-username-input'
+            />
+            <button className='sign-in__email-or-username-btn-continue'>Continue</button>
+          </div>
+          <div className='sign-in__separator'></div>
+          <div className='sign-in__social-buttons'>
+            <button className='sign-in__fb-btn'>
+              <span>Continue with Facebook</span>
+            </button>
+            <button className='sign-in__google-btn'>
+              <span>Continue with Google</span>
+            </button>
+            <button className='sign-in__apple-btn'>
+              <span>Continue with Apple</span>
+            </button>
+          </div>
+          <div className='sign-in__kmsi-container'>
+            <label htmlFor='kmsi-checkbox'>
+              <input
+                type='checkbox'
+                id='kmsi-checkbox'
+                name='kmsi'
+                className='sign-in__kmsi-checkbox'
+                checked
+              />
+              <span>Stay signed in</span>
+            </label>
           </div>
         </form>
       </div>
