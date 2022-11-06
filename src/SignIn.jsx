@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterCopyright from './FooterCopyright';
 import './SignIn.css';
+import InfoIcon from '@mui/icons-material/Info';
 
 function SignIn() {
   return (
@@ -61,6 +62,28 @@ function SignIn() {
                 checked
               />
               <span>Stay signed in</span>
+              <p>
+                Using a public or shared device?<br />
+                Uncheck to protect your account.
+              </p>
+              <button className='sign-in__kmsi-more-info-btn'>Learn more</button>
+              <div
+                className='sign-in__kmsi-more-info'
+                style={{ display: 'block' }}
+              >
+                <div className='sign-in__kmsi-more-info-icon'>
+                  <InfoIcon
+                    fontSize='small'
+                    style={{
+                      color: 'white',
+                      backgroundColor: 'grey'
+                    }}
+                  />
+                </div>
+                <div className='sign-in__kmsi-more-info-text'>
+                  With this box checked, we'll keep you signed in, making it easier to bid and buy. You'll also be all set to pay if you've saved your payment info. You can always turn off this feature in My eBay. We may ask you to sign in again for some activities, such as making changes to your account.
+                </div>
+              </div>
             </label>
           </div>
         </form>
