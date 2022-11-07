@@ -20,7 +20,7 @@ function SignIn() {
           <h1 className='sign-in__intro-heading'>Hello</h1>
           <div className='sign-in__intro-sub-heading'>
             Sign in to eBay or&nbsp;
-            <div id='sign-in__create-account-link'>
+            <div className='sign-in__create-account-link'>
               create an account
             </div>
           </div>
@@ -28,7 +28,10 @@ function SignIn() {
         <form className='sign-in__form'>
           <div className='sign-in__notice-attention'>
             <div className='sign-in__notice-attention-icon'></div>
-            <div className='sign-in__notice-attention-text'>
+            <div
+              className='sign-in__notice-attention-text'
+              style={{ display: 'none' }}
+            >
               Oops, that's not a match.
             </div>
           </div>
@@ -68,7 +71,7 @@ function SignIn() {
               </p>
               <button className='sign-in__kmsi-more-info-btn'>Learn more</button>
               <div
-                className='sign-in__kmsi-more-info'
+                className='sign-in__kmsi-more-info-container'
                 style={{ display: 'block' }}
               >
                 <div className='sign-in__kmsi-more-info-icon'>

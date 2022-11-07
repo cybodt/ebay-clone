@@ -1,0 +1,52 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 300px;
+  font-family: 'Market Sans', Arial, sans-serif;
+}
+
+.sign-in__survey {
+  align-self: end;
+  margin: 8px 8px 0 0;
+  color: #0654ba;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sign-in__ebay-logo>img {
+  width: 134px;
+  aspect-ratio: auto;
+  padding: 16px;
+}
+
+.sign-in__container {
+  width: 355px;
+  height: 100%;
+  margin: 0 auto 30px;
+}
+
+.sign-in__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in__intro-heading {
+  font-size: 36px;
+  line-height: 36px;
+  padding-bottom: 8px;
+  color: #151e27;
+}
+
+.sign-in__intro-sub-heading {
+  display: flex;
+  font-size: 14px;
+  max-width: 340px;
+}
+
+.sign-in__create-account-link {
+  text-decoration: underline;
+  color: #3665f3;
+  cursor: pointer;
+}
