@@ -26,12 +26,17 @@ function SignIn() {
           </div>
         </div>
         <form className='sign-in__form'>
-          <div className='sign-in__notice-attention'>
-            <div className='sign-in__notice-attention-icon'></div>
-            <div
-              className='sign-in__notice-attention-text'
-              style={{ display: 'none' }}
-            >
+          <div
+            className='sign-in__notice-attention'
+            style={{ display: 'flex' }}
+          >
+            <div className='sign-in__notice-attention-icon'>
+              <img
+                src='/images/other-icons/exclamation-point-red.png'
+                alt='Red Exclamation Point'
+              />
+            </div>
+            <div className='sign-in__notice-attention-text'>
               Oops, that's not a match.
             </div>
           </div>

@@ -50,3 +50,29 @@
   color: #3665f3;
   cursor: pointer;
 }
+
+.sign-in__form {
+  margin: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in__notice-attention {
+  align-items: center;
+  align-self: start;
+  margin: 4px 0;
+}
+
+.sign-in__notice-attention-icon {
+  width: 16px;
+  margin: 4px 8px 0 0;
+}
+
+.sign-in__notice-attention-icon>img {
+  width: 16px;
+}
+
+.sign-in__notice-attention-text {
+  font-size: 0.9rem;
+}
