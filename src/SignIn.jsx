@@ -40,12 +40,15 @@ function SignIn() {
               Oops, that's not a match.
             </div>
           </div>
+          {/* add `&nbsp;` after `<br />` to take effect in all browsers when `<br />` is used in flexbox */}
+          <br />&nbsp;
           <div className='sign-in__email-or-username-container'>
             <input
               type='text'
               placeholder='Email or username'
               className='sign-in__email-or-username-input'
             />
+            <br />&nbsp;
             <button className='sign-in__email-or-username-btn-continue'>Continue</button>
           </div>
           <div className='sign-in__separator'></div>

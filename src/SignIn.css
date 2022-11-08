@@ -52,7 +52,7 @@
 }
 
 .sign-in__form {
-  margin: 45px;
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,4 +75,17 @@
 
 .sign-in__notice-attention-text {
   font-size: 0.9rem;
+}
+
+.sign-in__email-or-username-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.sign-in__email-or-username-input,
+.sign-in__email-or-username-btn-continue {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
 }
