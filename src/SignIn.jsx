@@ -45,9 +45,9 @@ function SignIn() {
           <div className='sign-in__email-or-username-container'>
             <input
               type='text'
-              placeholder='Email or username'
               className='sign-in__email-or-username-input'
             />
+            <label>Email or username</label>
             <br />&nbsp;
             <button className='sign-in__email-or-username-btn-continue'>Continue</button>
           </div>
