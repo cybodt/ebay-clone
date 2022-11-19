@@ -101,20 +101,25 @@
 }
 
 .sign-in__email-or-username-input {
+  padding-top: 15px;
+  padding-left: 15px;
   border: 1px solid gray;
   border-radius: 8px;
   background-color: rgb(245, 245, 245);
   color: black;
+  font-size: 1rem;
 }
 
-.sign-in__email-or-username-input:focus {
+.sign-in__email-or-username-input:focus,
+.sign-in__email-or-username-input:valid {
   background-color: white;
   padding-top: 15px;
   padding-left: 15px;
   font-size: 1rem;
 }
 
-.sign-in__email-or-username-input:focus~label {
+.sign-in__email-or-username-input:focus~label,
+.sign-in__email-or-username-input:valid~label {
   top: 1px;
   background-color: white;
   outline: none;

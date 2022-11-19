@@ -46,6 +46,7 @@ function SignIn() {
             <input
               type='text'
               className='sign-in__email-or-username-input'
+              required
             />
             <label>Email or username</label>
             <br />&nbsp;
