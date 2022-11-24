@@ -50,17 +50,31 @@ function SignIn() {
             />
             <label>Email or username</label>
             <br />&nbsp;
-            <button className='sign-in__email-or-username-btn-continue'>Continue</button>
+            <button
+              className='sign-in__email-or-username-btn-continue\
+                sign-in__continue-btns'
+            >
+              Continue
+            </button>
           </div>
           <div className='sign-in__separator'></div>
           <div className='sign-in__social-buttons'>
-            <button className='sign-in__fb-btn'>
+            <button
+              className='sign-in__fb-btn\
+                sign-in__continue-btns'
+            >
               <span>Continue with Facebook</span>
             </button>
-            <button className='sign-in__google-btn'>
+            <button
+              className='sign-in__google-btn\
+                sign-in__continue-btns'
+            >
               <span>Continue with Google</span>
             </button>
-            <button className='sign-in__apple-btn'>
+            <button
+              className='sign-in__apple-btn\
+                sign-in__continue-btns'
+            >
               <span>Continue with Apple</span>
             </button>
           </div>
