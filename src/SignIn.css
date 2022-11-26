@@ -126,3 +126,27 @@
   outline: none;
   font-size: 0.75rem;
 }
+
+.sign-in__continue-btns {
+  width: 100%;
+  min-height: 48px;
+  padding: 13px 20px;
+  border-radius: 48px;
+  border: none;
+  font-size: 1rem;
+}
+
+.sign-in__email-or-username-btn-continue {
+  /* background-color: #3665F3; */
+  color: #fff;
+}
+
+/* .sign-in__email-or-username-btn-continue:hover {
+  background-color: pink;
+} */
+
+.sign-in__social-buttons {
+  width: 100%;
+  height: 233px;
+  margin-top: 24px;
+}

@@ -51,8 +51,12 @@ function SignIn() {
             <label>Email or username</label>
             <br />&nbsp;
             <button
-              className='sign-in__email-or-username-btn-continue\
-                sign-in__continue-btns'
+              type='submit'
+              className='sign-in__continue-btns
+                sign-in__email-or-username-btn-continue'
+              style={{
+                // backgroundColor: '#3665F3'
+              }}
             >
               Continue
             </button>
@@ -60,20 +64,20 @@ function SignIn() {
           <div className='sign-in__separator'></div>
           <div className='sign-in__social-buttons'>
             <button
-              className='sign-in__fb-btn\
-                sign-in__continue-btns'
+              className='sign-in__continue-btns
+                sign-in__fb-btn'
             >
               <span>Continue with Facebook</span>
             </button>
             <button
-              className='sign-in__google-btn\
-                sign-in__continue-btns'
+              className='sign-in__continue-btns
+                sign-in__google-btn'
             >
               <span>Continue with Google</span>
             </button>
             <button
-              className='sign-in__apple-btn\
-                sign-in__continue-btns'
+              className='sign-in__continue-btns
+                sign-in__apple-btn'
             >
               <span>Continue with Apple</span>
             </button>
