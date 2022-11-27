@@ -55,7 +55,8 @@ function SignIn() {
               className='sign-in__continue-btns
                 sign-in__email-or-username-btn-continue'
               style={{
-                // backgroundColor: '#3665F3'
+                color: '#fff',
+                backgroundColor: '#3665F3'
               }}
             >
               Continue
@@ -64,18 +65,21 @@ function SignIn() {
           <div className='sign-in__separator'></div>
           <div className='sign-in__social-buttons'>
             <button
+              type='button'
               className='sign-in__continue-btns
                 sign-in__fb-btn'
             >
               <span>Continue with Facebook</span>
             </button>
             <button
+              type='button'
               className='sign-in__continue-btns
                 sign-in__google-btn'
             >
               <span>Continue with Google</span>
             </button>
             <button
+              type='button'
               className='sign-in__continue-btns
                 sign-in__apple-btn'
             >
@@ -96,7 +100,12 @@ function SignIn() {
                 Using a public or shared device?<br />
                 Uncheck to protect your account.
               </p>
-              <button className='sign-in__kmsi-more-info-btn'>Learn more</button>
+              <button
+                type='button'
+                className='sign-in__kmsi-more-info-btn'
+              >
+                Learn more
+              </button>
               <div
                 className='sign-in__kmsi-more-info-container'
                 style={{ display: 'block' }}
