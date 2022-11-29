@@ -62,7 +62,12 @@ function SignIn() {
               Continue
             </button>
           </div>
-          <div className='sign-in__separator'></div>
+          <div className='sign-in__separator'>
+            <div className='sign-in__separator-line animate'></div>
+            <div className='sign-in__separator-content animate'>
+              <mark>or</mark>
+            </div>
+          </div>
           <div className='sign-in__social-buttons'>
             <button
               type='button'
