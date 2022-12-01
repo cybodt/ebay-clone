@@ -62,34 +62,48 @@ function SignIn() {
               Continue
             </button>
           </div>
-          <div className='sign-in__separator'>
-            <div className='sign-in__separator-line animate'></div>
-            <div className='sign-in__separator-content animate'>
-              <mark>or</mark>
+          <div className='sign-in__social-wrapper'>
+            <div className='sign-in__separator'>
+              <div className='sign-in__separator-line animate'></div>
+              <div className='sign-in__separator-content animate'>
+                <mark>or</mark>
+              </div>
             </div>
-          </div>
-          <div className='sign-in__social-buttons'>
-            <button
-              type='button'
-              className='sign-in__continue-btns
+            <div className='sign-in__social-buttons'>
+              <button
+                type='button'
+                className='sign-in__continue-btns
                 sign-in__fb-btn'
-            >
-              <span>Continue with Facebook</span>
-            </button>
-            <button
-              type='button'
-              className='sign-in__continue-btns
+              >
+                <img
+                  src='/images/logos-on-buttons/facebook-logo.png'
+                  alt='Facebook logo'
+                />
+                <span>Continue with Facebook</span>
+              </button>
+              <button
+                type='button'
+                className='sign-in__continue-btns
                 sign-in__google-btn'
-            >
-              <span>Continue with Google</span>
-            </button>
-            <button
-              type='button'
-              className='sign-in__continue-btns
+              >
+                <img
+                  src='/images/logos-on-buttons/google-logo.png'
+                  alt='Google logo'
+                />
+                <span>Continue with Google</span>
+              </button>
+              <button
+                type='button'
+                className='sign-in__continue-btns
                 sign-in__apple-btn'
-            >
-              <span>Continue with Apple</span>
-            </button>
+              >
+                <img
+                  src='/images/logos-on-buttons/apple-logo.png'
+                  alt='Apple logo'
+                />
+                <span>Continue with Apple</span>
+              </button>
+            </div>
           </div>
           <div className='sign-in__kmsi-container'>
             <label htmlFor='kmsi-checkbox'>

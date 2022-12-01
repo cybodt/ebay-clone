@@ -130,10 +130,14 @@
 .sign-in__continue-btns {
   width: 100%;
   min-height: 48px;
-  padding: 13px 20px;
   border-radius: 48px;
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
+}
+
+.sign-in__social-wrapper {
+  width: 100%;
+  margin-top: 24px;
 }
 
 .sign-in__separator {
@@ -220,4 +224,29 @@
   width: 100%;
   height: 233px;
   margin-top: 24px;
+}
+
+.sign-in__social-buttons>button {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in__social-buttons>button>img {
+  position: absolute;
+  left: 14px;
+}
+
+.sign-in__fb-btn>img {
+  width: 34px;
+}
+
+.sign-in__google-btn>img {
+  width: 20px;
+}
+
+.sign-in__apple-btn>img {
+  width: 20px;
 }
