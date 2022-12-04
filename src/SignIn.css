@@ -110,6 +110,10 @@
   font-size: 1rem;
 }
 
+.sign-in__email-or-username-btn-continue {
+  border: none;
+}
+
 .sign-in__email-or-username-input:focus,
 .sign-in__email-or-username-input:valid {
   background-color: white;
@@ -131,7 +135,6 @@
   width: 100%;
   min-height: 48px;
   border-radius: 48px;
-  border: none;
   font-size: 1.1rem;
 }
 
