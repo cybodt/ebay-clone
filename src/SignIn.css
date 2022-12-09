@@ -133,7 +133,8 @@
 
 .sign-in__continue-btns {
   width: 100%;
-  min-height: 48px;
+  height: 48px;
+  box-sizing: border-box;
   border-radius: 48px;
   font-size: 1.1rem;
 }
@@ -242,12 +243,43 @@
   left: 14px;
 }
 
+.sign-in__fb-btn {
+  border: none;
+  color: #fff;
+  background-color: #4267B2;
+}
+
+.sign-in__fb-btn:hover {
+  background-color: #10299c;
+}
+
 .sign-in__fb-btn>img {
   width: 34px;
 }
 
+.sign-in__google-btn {
+  border: thin solid #888;
+  color: #444;
+  background-color: #fff;
+}
+
+.sign-in__google-btn:hover {
+  background-color: #e4e4e4;
+}
+
 .sign-in__google-btn>img {
   width: 20px;
+}
+
+.sign-in__apple-btn {
+  border: 1px solid;
+  color: #444;
+  background-color: #fff;
+}
+
+.sign-in__apple-btn:hover {
+  border: thin solid #888;
+  background-color: #e4e4e4;
 }
 
 .sign-in__apple-btn>img {
