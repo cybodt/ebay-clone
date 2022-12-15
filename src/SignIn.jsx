@@ -107,42 +107,44 @@ function SignIn() {
           </div>
           <div className='sign-in__kmsi-container'>
             <label htmlFor='kmsi-checkbox'>
-              <input
-                type='checkbox'
-                id='kmsi-checkbox'
-                name='kmsi'
-                className='sign-in__kmsi-checkbox'
-                checked
-              />
-              <span>Stay signed in</span>
-              <p>
-                Using a public or shared device?<br />
-                Uncheck to protect your account.
-              </p>
-              <button
-                type='button'
-                className='sign-in__kmsi-more-info-btn'
-              >
-                Learn more
-              </button>
-              <div
-                className='sign-in__kmsi-more-info-container'
-                style={{ display: 'block' }}
-              >
-                <div className='sign-in__kmsi-more-info-icon'>
-                  <InfoIcon
-                    fontSize='small'
-                    style={{
-                      color: 'white',
-                      backgroundColor: 'grey'
-                    }}
-                  />
-                </div>
-                <div className='sign-in__kmsi-more-info-text'>
-                  With this box checked, we'll keep you signed in, making it easier to bid and buy. You'll also be all set to pay if you've saved your payment info. You can always turn off this feature in My eBay. We may ask you to sign in again for some activities, such as making changes to your account.
-                </div>
+              <div>
+                <input
+                  type='checkbox'
+                  id='kmsi-checkbox'
+                  name='kmsi'
+                  className='sign-in__kmsi-checkbox'
+                // checked
+                />
+                <span>Stay signed in</span>
               </div>
             </label>
+            <p>
+              Using a public or shared device?<br />
+              Uncheck to protect your account.
+            </p>
+            <button
+              type='button'
+              className='sign-in__kmsi-more-info-btn'
+            >
+              Learn more
+            </button>
+            <div
+              className='sign-in__kmsi-more-info-container'
+              style={{ display: 'block' }}
+            >
+              <div className='sign-in__kmsi-more-info-icon'>
+                <InfoIcon
+                  fontSize='small'
+                  style={{
+                    color: 'white',
+                    backgroundColor: 'grey'
+                  }}
+                />
+              </div>
+              <div className='sign-in__kmsi-more-info-text'>
+                With this box checked, we'll keep you signed in, making it easier to bid and buy. You'll also be all set to pay if you've saved your payment info. You can always turn off this feature in My eBay. We may ask you to sign in again for some activities, such as making changes to your account.
+              </div>
+            </div>
           </div>
         </form>
       </div>

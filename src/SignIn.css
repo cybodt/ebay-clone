@@ -226,8 +226,8 @@
 
 .sign-in__social-buttons {
   width: 100%;
-  height: 233px;
-  margin-top: 24px;
+  height: 177px;
+  margin: 24px 0 16px;
 }
 
 .sign-in__social-buttons>button {
@@ -284,4 +284,10 @@
 
 .sign-in__apple-btn>img {
   width: 20px;
+}
+
+.sign-in__kmsi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
