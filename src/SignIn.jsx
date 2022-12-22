@@ -128,16 +128,13 @@ function SignIn() {
             >
               Learn more
             </button>
-            <div
-              className='sign-in__kmsi-more-info-container'
-              style={{ display: 'block' }}
-            >
+            <div className='sign-in__kmsi-more-info-container'>
               <div className='sign-in__kmsi-more-info-icon'>
                 <InfoIcon
                   fontSize='small'
                   style={{
                     color: 'white',
-                    backgroundColor: 'grey'
+                    backgroundColor: '#3665f3'
                   }}
                 />
               </div>
