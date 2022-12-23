@@ -1,7 +1,7 @@
 .sign-in {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   min-width: 300px;
   font-family: 'Market Sans', Arial, sans-serif;
 }
@@ -22,6 +22,7 @@
 
 .sign-in__container {
   width: 355px;
+  flex-grow: 1;
   margin: 0 auto 30px;
 }
 
