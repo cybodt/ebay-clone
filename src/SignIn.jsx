@@ -2,6 +2,8 @@ import React from 'react';
 import FooterCopyright from './FooterCopyright';
 import './SignIn.css';
 import InfoIcon from '@mui/icons-material/Info';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Box } from '@mui/material';
 
 function SignIn() {
   return (
@@ -28,7 +30,11 @@ function SignIn() {
         <form className='sign-in__form'>
           <div
             className='sign-in__notice-attention'
-            style={{ display: 'flex' }}
+            style={{
+              display: 'none',
+              // display: 'flex'
+              // display: 'flex' when element is visible
+            }}
           >
             <div className='sign-in__notice-attention-icon'>
               <img
@@ -127,6 +133,9 @@ function SignIn() {
               className='sign-in__kmsi-more-info-btn'
             >
               Learn more
+              <Box pl={0.5}>
+                <KeyboardArrowDownIcon fontSize='small' />
+              </Box>
             </button>
             <div className='sign-in__kmsi-more-info-container'>
               <div className='sign-in__kmsi-more-info-icon'>

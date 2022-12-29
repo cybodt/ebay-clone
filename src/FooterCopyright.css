@@ -9,5 +9,6 @@
 }
 
 .footer-copyright>div {
+  text-decoration: underline;
   color: #707070;
 }
