@@ -318,12 +318,11 @@
   background: none;
   color: #3665f3;
   text-decoration: underline;
-  cursor: pointer;
+  cursor: text;
   font-size: 1rem;
 }
 
 .sign-in__kmsi-more-info-container {
-  display: flex;
   margin: 16px 0;
   padding: 16px;
   background-color: #3665f3;

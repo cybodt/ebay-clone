@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import FooterCopyright from './FooterCopyright';
 import './SignIn.css';
 import InfoIcon from '@mui/icons-material/Info';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Box } from '@mui/material';
 
 function SignIn() {
+
+  const [moreInfo, setMoreInfo] = useState('none');
+  const arrowDownIcon = <KeyboardArrowDownIcon fontSize='small' />;
+  const arrowUpIcon = <KeyboardArrowUpIcon fontSize='small' />;
+  const [showArrowIcon, setShowArrowIcon] = useState(arrowDownIcon);
+
+  const handleMoreInfo = () => {
+    if (moreInfo === 'none') {
+      setMoreInfo('flex');
+      setShowArrowIcon(arrowUpIcon);
+    }
+    else {
+      setMoreInfo('none');
+      setShowArrowIcon(arrowDownIcon);
+    }
+  };
+
   return (
     <div className='sign-in'>
       <div className='sign-in__survey'>
@@ -131,13 +149,19 @@ function SignIn() {
             <button
               type='button'
               className='sign-in__kmsi-more-info-btn'
+              onClick={() => handleMoreInfo()}
             >
               Learn more
               <Box pl={0.5}>
-                <KeyboardArrowDownIcon fontSize='small' />
+                {showArrowIcon}
               </Box>
             </button>
-            <div className='sign-in__kmsi-more-info-container'>
+            <div
+              className='sign-in__kmsi-more-info-container'
+              style={{
+                display: moreInfo
+              }}
+            >
               <div className='sign-in__kmsi-more-info-icon'>
                 <InfoIcon
                   fontSize='small'
