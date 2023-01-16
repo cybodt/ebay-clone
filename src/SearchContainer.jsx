@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SearchIcon from '@mui/icons-material/Search';
 import './SearchContainer.css';
@@ -8,13 +7,11 @@ import { Box } from '@mui/material';
 function SearchContainer() {
   return (
     <div className='search-container'>
-      <Link to='/'>
-        <img
-          src='/images/ebay-logo.jpg'
-          alt='eBay logo'
-          className='search-container__ebay-logo'
-        />
-      </Link>
+      <img
+        src='/images/ebay-logo.jpg'
+        alt='eBay logo'
+        className='search-container__ebay-logo'
+      />
       <div className='search-container__shop-by-category'>
         <div>Shop by<br></br>category</div>
         <KeyboardArrowDownIcon fontSize='large' />

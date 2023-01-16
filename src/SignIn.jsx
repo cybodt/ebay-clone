@@ -5,6 +5,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function SignIn() {
 
@@ -29,11 +30,14 @@ function SignIn() {
       <div className='sign-in__survey'>
         Tell us what you think
       </div>
-      <div className='sign-in__ebay-logo'>
-        <img
-          src='/images/ebay-logo.jpg'
-          alt='eBay logo'
-        />
+      <div>
+        <Link to='/'>
+          <img
+            className='sign-in__ebay-logo'
+            src='/images/ebay-logo.jpg'
+            alt='eBay logo'
+          />
+        </Link>
       </div>
       <div className='sign-in__container'>
         <div className='sign-in__intro'>

@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.sign-in__ebay-logo>img {
+.sign-in__ebay-logo {
   width: 134px;
   aspect-ratio: auto;
   padding: 16px;

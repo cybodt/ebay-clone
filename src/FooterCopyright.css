@@ -16,11 +16,10 @@
 
 .ad-choice {
   display: flex;
-  align-items: center;
 }
 
 .ad-choice>img {
   width: 13px;
-  padding-top: 2px;
-  padding-left: 2px;
+  padding-top: 1px;
+  padding-left: 3px;
 }
