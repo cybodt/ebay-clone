@@ -14,6 +14,12 @@
   cursor: pointer;
 }
 
+.sign-in__survey+div {
+  /* for Safari */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .sign-in__ebay-logo {
   width: 134px;
   aspect-ratio: auto;
@@ -295,21 +301,18 @@
   align-items: center;
 }
 
-.sign-in__kmsi-container>label {
+.sign-in__kmsi-checkbox {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 6px;
+  cursor: default;
 }
 
-.sign-in__kmsi-container>label+p,
-.sign-in__kmsi-checkbox+span {
+.sign-in__kmsi-checkbox,
+.sign-in__kmsi-checkbox+p {
   font-size: 0.92rem;
-}
-
-.sign-in__kmsi-checkbox {
-  margin-right: 8px;
 }
 
 .sign-in__kmsi-more-info-btn {

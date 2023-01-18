@@ -6,13 +6,28 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 
 function SignIn() {
 
+  const [displayCheckOnIcon, setDisplayCheckOnIcon] = useState('flex');
+  const [displayCheckOffIcon, setDisplayCheckOffIcon] = useState('none');
   const [moreInfo, setMoreInfo] = useState('none');
   const arrowDownIcon = <KeyboardArrowDownIcon fontSize='small' />;
   const arrowUpIcon = <KeyboardArrowUpIcon fontSize='small' />;
   const [showArrowIcon, setShowArrowIcon] = useState(arrowDownIcon);
+
+  const handleCheckBox = () => {
+    if (displayCheckOnIcon === 'flex') {
+      setDisplayCheckOnIcon('none');
+      setDisplayCheckOffIcon('flex');
+    }
+    else {
+      setDisplayCheckOnIcon('flex');
+      setDisplayCheckOffIcon('none');
+    }
+  };
 
   const handleMoreInfo = () => {
     if (moreInfo === 'none') {
@@ -134,18 +149,24 @@ function SignIn() {
             </div>
           </div>
           <div className='sign-in__kmsi-container'>
-            <label htmlFor='kmsi-checkbox'>
-              <div>
-                <input
-                  type='checkbox'
-                  id='kmsi-checkbox'
-                  name='kmsi'
-                  className='sign-in__kmsi-checkbox'
-                // checked
-                />
-                <span>Stay signed in</span>
-              </div>
-            </label>
+            <div
+              className='sign-in__kmsi-checkbox'
+              onClick={() => handleCheckBox()}
+            >
+              <CheckBoxIcon
+                style={{
+                  display: displayCheckOnIcon
+                }}
+                fontSize='small'
+              />
+              <CheckBoxOutlineBlankIcon
+                style={{
+                  display: displayCheckOffIcon
+                }}
+                fontSize='small'
+              />
+              <span>&nbsp;Stay signed in</span>
+            </div>
             <p>
               Using a public or shared device?<br />
               Uncheck to protect your account.
