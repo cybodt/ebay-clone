@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import FooterCopyright from './FooterCopyright';
 import './SignIn.css';
 import InfoIcon from '@mui/icons-material/Info';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -8,9 +7,9 @@ import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import FooterCopyright from './FooterCopyright';
 
 function SignIn() {
-
   const [displayCheckOnIcon, setDisplayCheckOnIcon] = useState('flex');
   const [displayCheckOffIcon, setDisplayCheckOffIcon] = useState('none');
   const [moreInfo, setMoreInfo] = useState('none');
@@ -68,7 +67,7 @@ function SignIn() {
           <div
             className='sign-in__notice-attention'
             style={{
-              display: 'none',
+              display: 'none'
               // display: 'flex'
               // display: 'flex' when element is visible
             }}
@@ -89,7 +88,7 @@ function SignIn() {
             <input
               type='text'
               className='sign-in__email-or-username-input'
-              required
+              required='true'
             />
             <label>Email or username</label>
             <br />&nbsp;
@@ -107,7 +106,7 @@ function SignIn() {
           </div>
           <div className='sign-in__social-wrapper'>
             <div className='sign-in__separator'>
-              <div className='sign-in__separator-line animate'></div>
+              <div className='sign-in__separator-line animate' />
               <div className='sign-in__separator-content animate'>
                 <mark>or</mark>
               </div>
