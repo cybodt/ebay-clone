@@ -19,5 +19,4 @@ function ExplorePopularCategories(props) {
   );
 }
 
-
 export default ExplorePopularCategories;

@@ -6,7 +6,6 @@ import ScrollToTop from './ScrollToTop';
 import SearchContainer from './SearchContainer';
 import SignIn from './SignIn';
 
-
 function App() {
   return (
     <BrowserRouter>

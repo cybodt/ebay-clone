@@ -44,7 +44,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className='header-bottom-line'></div>
+      <div className='header-bottom-line' />
     </div>
   );
 }

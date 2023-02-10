@@ -2,15 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './ScrollToTop.css';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-
 function ScrollToTop() {
-
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
   useEffect(() => {
     const handleScroll = event => {
       // if scroller is below 400px from the top, scrollToTop button disappears
-      (window.scrollY > 400) ? setShowScrollToTop(true) : setShowScrollToTop(false)
+      (window.scrollY > 400) ? setShowScrollToTop(true) : setShowScrollToTop(false);
     };
 
     window.addEventListener('scroll', handleScroll);

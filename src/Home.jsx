@@ -11,12 +11,11 @@ import productsExplorePopularBrands from './array-explore-popular-brands';
 import productsExplorePopularCategories from './array-explore-popular-categories';
 import ExplorePopularCategories from './ExplorePopularCategories';
 
-
 function Home() {
   return (
     <div className='home'>
       <div className='nav-bar-container'>
-        <div className='nav-bar-container__top-line'></div>
+        <div className='nav-bar-container__top-line' />
         <div className='nav-bar-container__nav-bar'>
           <div className='nav-bar-container__home'><span>Home</span></div>
           <div className='nav-bar-container__saved'><span>Saved</span></div>
@@ -127,7 +126,7 @@ function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Home;

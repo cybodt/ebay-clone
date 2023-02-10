@@ -5,7 +5,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Paper, Button } from '@mui/material';
 
 function Item(props) {
-
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseEnter = () => {
@@ -108,6 +107,6 @@ function MainCarousel() {
       }
     </Carousel>
   );
-};
+}
 
 export default MainCarousel;
