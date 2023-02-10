@@ -17,14 +17,16 @@ function SignIn() {
   const arrowUpIcon = <KeyboardArrowUpIcon fontSize='small' />;
   const [showArrowIcon, setShowArrowIcon] = useState(arrowDownIcon);
 
-  const handleCheckBox = () => {
-    if (displayCheckOnIcon === 'flex') {
-      setDisplayCheckOnIcon('none');
-      setDisplayCheckOffIcon('flex');
-    }
-    else {
-      setDisplayCheckOnIcon('flex');
-      setDisplayCheckOffIcon('none');
+  const handleCheckBox = (e) => {
+    if (e.key !== 'Tab' && e.key !== 'Shift') {
+      if (displayCheckOnIcon === 'flex') {
+        setDisplayCheckOnIcon('none');
+        setDisplayCheckOffIcon('flex');
+      }
+      else {
+        setDisplayCheckOnIcon('flex');
+        setDisplayCheckOffIcon('none');
+      }
     }
   };
 
@@ -150,7 +152,11 @@ function SignIn() {
           <div className='sign-in__kmsi-container'>
             <div
               className='sign-in__kmsi-checkbox'
-              onClick={() => handleCheckBox()}
+              role='button'
+              tabIndex={0}
+              onClick={e => handleCheckBox(e)}
+              // use onKeyDown event for users with physical disabilities who cannot use a mouse, AT compatibility, and screenreader users
+              onKeyDown={e => handleCheckBox(e)}
             >
               <CheckBoxIcon
                 style={{
