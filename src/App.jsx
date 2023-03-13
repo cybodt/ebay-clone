@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GlobalFooter from './GlobalFooter';
 import Header from './Header';
@@ -11,15 +12,21 @@ function App() {
     <BrowserRouter>
       <div className='app'>
         <Routes>
-          <Route path='/signin' element={[
-            <SignIn key='1' />
-          ]} />
-          <Route path='/' element={[
-            <Header key='1' />,
-            <SearchContainer key='2' />,
-            <Home key='3' />,
-            <GlobalFooter key='4' />
-          ]} />
+          <Route
+            path='/signin'
+            element={[
+              <SignIn key='1' />
+            ]}
+          />
+          <Route
+            path='/'
+            element={[
+              <Header key='1' />,
+              <SearchContainer key='2' />,
+              <Home key='3' />,
+              <GlobalFooter key='4' />
+            ]}
+          />
         </Routes>
         <ScrollToTop />
       </div>
