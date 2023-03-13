@@ -89,10 +89,11 @@ function SignIn() {
           <div className='sign-in__email-or-username-container'>
             <input
               type='text'
+              id='sign-in__email-or-username-input-id'
               className='sign-in__email-or-username-input'
               required='true'
             />
-            <label>Email or username</label>
+            <label htmlFor='sign-in__email-or-username-input-id'>Email or username</label>
             <br />&nbsp;
             <button
               type='submit'

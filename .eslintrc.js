@@ -49,6 +49,9 @@ module.exports = {
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: true }],
     'no-underscore-dangle': 0,
-    'react/no-unescaped-entities': 0
+    'react/no-unescaped-entities': 0,
+    'jsx-a11y/label-has-associated-control': [2, {
+      assert: 'either' // either check for `htmlFor` or `nesting`
+    }]
   }
 };
