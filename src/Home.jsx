@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import MainCarousel from './MainCarousel';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import MainCarousel from './MainCarousel';
 import productsDailyDeals from './array-daily-deals';
 import DailyDeals from './DailyDeals';
 import productsComputerWebcams from './array-computer-webcams';
@@ -30,7 +30,7 @@ function Home() {
           <div className='nav-bar-container__deals'><span>Deals</span></div>
           <div className='nav-bar-container__sell'><span>Sell</span></div>
         </div>
-        <div className='nav-bar-container__bottom-line'></div>
+        <div className='nav-bar-container__bottom-line' />
       </div>
       <div className='main-carousel-container'>
         <MainCarousel />
@@ -46,9 +46,9 @@ function Home() {
           </div>
         </div>
         <div className='popular-brands__brands'>
-          {productsExplorePopularBrands.map((el, i) => (
+          {productsExplorePopularBrands.map(el => (
             <ExplorePopularBrands
-              key={i}
+              key={el.className}
               className={el.className}
               brandName={el.brandName}
               srcImg={el.srcImg}
@@ -68,9 +68,9 @@ function Home() {
           </div>
         </div>
         <div className='popular-categories__categories'>
-          {productsExplorePopularCategories.map((el, i) => (
+          {productsExplorePopularCategories.map(el => (
             <ExplorePopularCategories
-              key={i}
+              key={el.className}
               className={el.className}
               categoryName={el.categoryName}
               srcImg={el.srcImg}
@@ -90,9 +90,9 @@ function Home() {
           </div>
         </div>
         <div className='daily-deals__deals'>
-          {productsDailyDeals.map((el, i) => (
+          {productsDailyDeals.map(el => (
             <DailyDeals
-              key={i}
+              key={el.productName}
               productName={el.productName}
               srcImg={el.srcImg}
               altImg={el.altImg}
@@ -113,9 +113,9 @@ function Home() {
           <div className='computer-webcams__recommended'>Recommended for you</div>
         </div>
         <div className='computer-webcams__webcams'>
-          {productsComputerWebcams.map((el, i) => (
+          {productsComputerWebcams.map(el => (
             <ComputerWebcams
-              key={i}
+              key={el.productName}
               productName={el.productName}
               srcImg={el.srcImg}
               altImg={el.altImg}
