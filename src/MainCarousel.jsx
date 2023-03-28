@@ -5,6 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Paper, Button } from '@mui/material';
 
 function Item(props) {
+  const { item } = props;
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseEnter = () => {
@@ -16,46 +17,49 @@ function Item(props) {
   };
 
   return (
-    <Paper className='paper-main' style={{ backgroundColor: props.item.bgColor }}>
+    <Paper className='paper-main' style={{ backgroundColor: item.bgColor }}>
       <div className='paper-main__left'>
         <div className='paper-main__heading'>
-          <h2 style={{ color: props.item.nameColor }}>
-            {props.item.name}
+          <h2 style={{ color: item.nameColor }}>
+            {item.name}
           </h2>
         </div>
         <div className='paper-main__paragraph'>
-          <p style={{ color: props.item.descriptionColor }}>
-            {props.item.description}
+          <p style={{ color: item.descriptionColor }}>
+            {item.description}
           </p>
         </div>
-        <Button className="paper-main__check-button" style={{
-          color: isHovering ? props.item.buttonHoverColor : props.item.buttonColor,
-          borderWidth: '1px',
-          borderStyle: 'solid',
-          borderColor: props.item.borderColor,
-          backgroundColor: isHovering ? props.item.bgHoverColor : ''
-        }}
+        <Button
+          className='paper-main__check-button'
+          style={{
+            color: isHovering ? item.buttonHoverColor : item.buttonColor,
+            borderWidth: '1px',
+            borderStyle: 'solid',
+            borderColor: item.borderColor,
+            backgroundColor: isHovering ? item.bgHoverColor : ''
+          }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          {props.item.buttonName}
+          {item.buttonName}
           <ArrowForwardIcon fontSize='large' />
         </Button>
       </div>
       <div className='paper-main__right'>
-        <img 
-        className='paper-main__img-carousel' 
-        src={props.item.srcImg} 
-        alt={props.item.altImg} 
+        <img
+          className='paper-main__img-carousel'
+          src={item.srcImg}
+          alt={item.altImg}
         />
       </div>
     </Paper>
-  )
+  );
 }
 
 function MainCarousel() {
   const items = [
     {
+      id: 'main-carousel-banner-one',
       name: 'Everyone says these sellers are the best!',
       description: 'These items come with outstanding service from Top Rated Sellers.',
       buttonName: 'Shop the best',
@@ -70,6 +74,7 @@ function MainCarousel() {
       altImg: 'banner one'
     },
     {
+      id: 'main-carousel-banner-two',
       name: 'You may have a special offer',
       description: 'Sign in to your account to find out.',
       buttonName: 'Go to My eBay',
@@ -83,12 +88,12 @@ function MainCarousel() {
       srcImg: '/images/banner-two.jpg',
       altImg: 'banner two'
     }
-  ]
+  ];
   return (
     <Carousel
       navButtonsAlwaysVisible={true}
       interval={10000}
-      animation={'slide'}
+      animation='slide'
       duration={1000}
       indicators={false}
       navButtonsProps={{
@@ -103,7 +108,7 @@ function MainCarousel() {
       }}
     >
       {
-        items.map((item, i) => <Item key={i} item={item} />)
+        items.map(item => <Item key={item.id} item={item} />)
       }
     </Carousel>
   );
