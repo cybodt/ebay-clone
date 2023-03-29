@@ -91,7 +91,7 @@ function SignIn() {
               type='text'
               id='sign-in__email-or-username-input-id'
               className='sign-in__email-or-username-input'
-              required='true'
+              required={true}
             />
             <label htmlFor='sign-in__email-or-username-input-id'>Email or username</label>
             <br />&nbsp;
