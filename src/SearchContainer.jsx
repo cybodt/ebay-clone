@@ -13,7 +13,7 @@ function SearchContainer() {
         className='search-container__ebay-logo'
       />
       <div className='search-container__shop-by-category'>
-        <div>Shop by<br></br>category</div>
+        <div>Shop by<br />category</div>
         <KeyboardArrowDownIcon fontSize='large' />
       </div>
       <div className='search-container__search'>
